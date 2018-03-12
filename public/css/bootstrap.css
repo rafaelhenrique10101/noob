@@ -3685,7 +3685,7 @@ select[multiple].form-group-lg .form-control {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #969c9c;
+  color: #f1f;
   text-decoration: none;
 }
 .btn:active,
@@ -4733,7 +4733,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #e5e6e6;
+  color: #ffffff
 }
 .nav > li.disabled > a {
   color: #969c9c;

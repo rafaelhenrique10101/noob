@@ -1174,7 +1174,6 @@ a.text-success:hover {
 }
 #base {
   overflow: hidden;
-  padding-left: 64px;
   width: 100%;
   min-height: 100%;
 }
@@ -2235,7 +2234,7 @@ body:not(.menubar-first) .menubar-fixed-panel {
 }
 section {
   position: relative;
-  padding: 24px;
+  padding: 0px;
 }
 section:first-child {
   padding-top: 0;
@@ -4747,7 +4746,7 @@ li.dropdown-progress .progress {
   font-size: 14px;
 }
 .nav-tabs > li > a:hover {
-  border-color: #e5e6e6 #e5e6e6 #dddddd;
+  border-color: transparent;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
@@ -4796,6 +4795,8 @@ li.dropdown-progress .progress {
 }
 .nav-tabs.tabs-center {
   text-align: center;
+  height: 48px;
+  padding-top: 0px;
 }
 .tabs-text-contrast {
   border-bottom-color: rgba(255, 255, 255, 0.15);
@@ -5031,10 +5032,13 @@ li.dropdown-progress .progress {
 }
 .card-head {
   position: relative;
-  line-height: 52px;
+  line-height: 48px;
   min-height: 56px;
   vertical-align: middle;
   border-radius: 2px 2px 0 0;
+}
+.tabs-top{
+  min-height: 48px;
 }
 .card-head:before,
 .card-head:after {
