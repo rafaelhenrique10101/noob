@@ -1,0 +1,85 @@
+.container-input-top{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 0 20px;
+}
+.w-10pc{
+    width: 10%;
+}
+.w-20pc{
+    width: 20%;
+}
+.w-30pc{
+    width: 30%;
+}
+.w-30pc{
+    width: 30%;
+}
+.w-40pc{
+    width: 40%;
+}
+.w-50pc{
+    width: 50%;
+}
+.w-60pc{
+    width: 60%;
+}
+.w-70pc{
+    width: 70%;
+}
+.w-80pc{
+    width: 80%;
+}
+.w-90pc{
+    width: 90%;
+}
+.w-100pc{
+    width: 100%;
+}
+.ft-left-p-rel{
+    float: left;
+    position: relative;
+}
+.ft-right-p-rel{
+    float: right;
+    position: relative;
+}
+.ft-left-p-ab{
+    float: left;
+    position: absolute;
+}
+.ft-right-p-ab{
+    float: right;
+    position: absolute;
+}
+.al-center{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mg-tp-bt-5px{
+    margin: 5px 0;
+}
+.mg-tp-bt-10px{
+    margin: 10px 0;
+}
+.mg-tp-bt-15px{
+    margin: 15px 0;
+}
+.mg-tp-bt-20px{
+    margin: 20px 0;
+}
+.mg-tp-bt-25px{
+    margin: 25px 0;
+}
+.mg-tp-bt-30px{
+    margin: 30px 0;
+}
+.mg-tp-bt-35px{
+    margin: 35px 0;
+}
+.mg-tp-bt-40px{
+    margin: 40px 0;
+}
+.mg-tp-bt-45px{
+    margin: 45px 0;
+}

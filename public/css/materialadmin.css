@@ -1215,7 +1215,7 @@ a.text-success:hover {
   }
 }
 #header {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   height: 112px;
@@ -1427,10 +1427,10 @@ a.text-success:hover {
 }
 @media (max-width: 768px) {
   #header {
-    position: relative;
+    position: fixed;
   }
   .header-fixed #header {
-    position: relative;
+    position: fixed;
   }
   .header-fixed #header:before {
     content: '';
@@ -2725,13 +2725,13 @@ label {
 }
 .form-control {
   padding: 0;
-  height: 37px;
+  height: 42px;
   border-left: none;
   border-right: none;
   border-top: none;
   border-bottom-color: rgba(12, 12, 12, 0.12);
   background: transparent;
-  color: #0c0c0c;
+  color: #fff;
   font-size: 16px;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -4764,7 +4764,7 @@ li.dropdown-progress .progress {
 }
 .card-head.nav-tabs > li > a,
 .card-head > .nav-tabs > li > a {
-  line-height: 54px;
+  line-height: 48px;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -5033,7 +5033,7 @@ li.dropdown-progress .progress {
 .card-head {
   position: relative;
   line-height: 48px;
-  min-height: 56px;
+  min-height: 62px;
   vertical-align: middle;
   border-radius: 2px 2px 0 0;
 }

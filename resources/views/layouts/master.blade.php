@@ -12,6 +12,7 @@
 		<!-- BEGIN STYLESHEETS -->
     <link href="http://fonts.googleapis.com/css?family=Roboto:300italic,400italic,300,400,500,700,900" rel="stylesheet" type="text/css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/noob.css">
     <link type="text/css" rel="stylesheet" href="css/materialadmin.css">
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="css/material-design-iconic-font.min.css">
@@ -24,6 +25,7 @@
     <!-- BEGIN JAVASCRIPT -->
 		
     <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/noob.js"></script>
     <script src="./js/jquery-migrate-1.2.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/spin.min.js"></script>
@@ -38,7 +40,7 @@
 
 	  <style type="text/css"></style>  
   </head>
-    <body class="menubar-hoverable header-fixed">
+    <body class="menubar-hoverable">
       @yield('body')	
     </body>  
   </html>
