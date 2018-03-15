@@ -8,16 +8,13 @@
             <div class="form-control-line"></div>
         </div>
         <div class="w-20pc ft-right-p-rel mg-tp-bt-10px">
-            <div class="col-sm-2 ft-right-p-rel">
+            <div class="col-sm-3 ft-right-p-rel">
                 <div class="btn-group">
-                    <button type="button" class="btn ink-reaction btn-floating-action btn-sm btn-primary" data-toggle="dropdown" aria-expanded="false"><img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" style="width: 34px;border-radius: 50%;"></button>
-                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                        <li><a href="#">Add</a></li>
-                        <li><a href="#">Edit</a></li>
-                        <li><a href="#">Copy</a></li>
-                        <li><a href="#">Print</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#"><i class="fa fa-fw fa-times text-danger"></i> Remove item</a></li>
+                    <button type="button" class="btn ink-reaction btn-floating-action btn-sm bg-rounded-button" data-toggle="dropdown" aria-expanded="false">
+                        <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" style="width: 34px;border-radius: 50%;">
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu" style="width: 240px; height: 270px;">
+                        
                     </ul>
                 </div><!--end .btn-group -->
             </div>
