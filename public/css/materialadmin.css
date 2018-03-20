@@ -4506,8 +4506,8 @@ fieldset[disabled] .btn-icon-toggle {
   font-size: 1.5em;
 }
 .btn-floating-action.btn-sm {
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
 }
 .btn-floating-action.btn-sm .fa,
 .btn-floating-action.btn-sm .md,

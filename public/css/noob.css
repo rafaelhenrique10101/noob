@@ -3,6 +3,9 @@
     position: relative;
     width: 100%;
 }
+.rounded{
+    border-radius: 50%;
+}
 .col-thumb{    
     height: 246px !important;
     padding-right: 16px !important;
@@ -219,34 +222,40 @@
 .pd-tp-bt-45px{
     padding: 45px 0;
 }
-<<<<<<< HEAD
-.h-h1{
-    color: rgba(255, 255, 255, 0.7) !important;
-    font-size: 15px !important;
-    font-weight: 500 !important;
-    flex-basis: 0.000000001px !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 0 !important;
-    background: transparent !important;
-    font-family: Roboto, Arial, sans-serif !important;
-    margin-top: 32px !important;
-    margin-bottom: 12px !important;
-    margin-left: 85px !important;
-    margin-right: 85px !important;
-=======
-.rounded{
-    border-radius: 50%;
+.mg-tp-5px{
+    margin-top: 5px;
 }
-.txt-grey-1{
-    color: rgba(255, 255, 255, 0.7);
+.mg-tp-10px{
+    margin-top: 10px;
 }
-.txt-white{
-    color: #fff;
+.mg-tp-15px{
+    margin-top: 15px;
+}
+.mg-tp-20px{
+    margin-top: 20px;
+}
+.mg-tp-25px{
+    margin-top: 25px;
+}
+.mg-tp-30px{
+    margin-top: 30px;
+}
+.margin-user-img{
+    margin: 5px 15px;
+    padding: 0;
+    float: right;
+}
+.position-dp-user{
+    width: 260px;
+    padding-bottom: 0;
+    top: 40px;
+    right: -10px;
+}
+.font-rb{
+    font-family: Roboto, Arial, sans-serif;
 }
 .txt-size-12px{
     font-size: 12px;
-
 }
 .txt-size-13px{
     font-size: 13px;
@@ -264,21 +273,60 @@
     font-size: 17px;
 }
 .txt-size-18px{
-    font-size: 18px;    
+    font-size: 18px;
 }
 .txt-weight-100{
-    font-weight: 100; 
+    font-weight: 100;
 }
 .txt-weight-200{
-    font-weight: 200; 
+    font-weight: 200;
 }
 .txt-weight-300{
-    font-weight: 300; 
+    font-weight: 300;
 }
 .txt-weight-400{
-    font-weight: 400; 
+    font-weight: 400;
 }
 .txt-weight-500{
-    font-weight: 500; 
->>>>>>> 727e185ebfbd155241c0b9ef13148d8fd5ac4b90
+    font-weight: 500;
+}
+.txt-weight-600{
+    font-weight: 600;
+}
+.txt-weight-700{
+    font-weight: 700;
+}
+.txt-weight-800{
+    font-weight: 800;
+}
+.txt-white{
+    color: #ffffff;
+}
+.txt-grey-1{
+    color: rgba(255, 255, 255, 0.7);
+}
+.h-h1{
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    flex-basis: 0.000000001px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    font-family: Roboto, Arial, sans-serif !important;
+    margin-top: 32px !important;
+    margin-bottom: 12px !important;
+    margin-left: 85px !important;
+    margin-right: 85px !important;
+}
+.item-menu{
+    padding: 10px 8px;
+    color: #fff;
+    height: 44px;
+    line-height: 24px;
+}
+.item-menu:hover{
+    background-color: #464545;
+    cursor: pointer;
 }
