@@ -1,11 +1,15 @@
 @extends('layouts.master')
 
 @section('body')	
+<div class="bg-opacity-main" style="display: none"></div>
 <header id="header">
     <div class="card-head">
         <div class="container-input-top w-60pc ft-left-p-rel al-center mg-tp-bt-10px">
-            <input type="text" class="form-control pd-rg-lt-15px" id="searchInput" placeholder="Pesquise jogos, canais e videos">
+            <input type="text" class="form-control pd-rg-lt-15px" id="id_search_main" placeholder="Pesquise jogos, canais e videos">
             <div class="form-control-line"></div>
+            <div class="ft-left-p-ab w-100pc mg-tp-10px" style="height: 300px; border-radius: 3px; background-color: #fff">
+                
+            </div>
         </div>
         <div class="w-20pc ft-right-p-rel mg-tp-bt-10px">
             <div class="margin-user-img">

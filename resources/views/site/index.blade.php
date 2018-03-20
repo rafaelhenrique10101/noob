@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="section-body" style="margin-top: 0;">
+    <div class="bg-opacity-content" style="display: none"></div>
     <div class="content-body">
         <div class="row" style="height: 270px;">
         </div>
