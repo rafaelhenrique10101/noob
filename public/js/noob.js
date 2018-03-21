@@ -4,6 +4,8 @@ $(document).ready(function (){
     // INSTANCIA DE ELEMENTOS
 
     var tabsTop = $('.tabs-center').find('li');
+    var searchBox = $('.container-search-box');
+    var searchInput = $('#id_search_main');
 
     // CONSTANTES
 
@@ -27,6 +29,19 @@ $(document).ready(function (){
 
         e.preventDefault();
     });
+
+
+    // ===================================================================================================
+    // ========================================== SEARCH MAIN ============================================
+    // ===================================================================================================
+
+        $(searchInput).keyup(function (e){
+            if($(this).val().length > 2){
+                $(searchBox).fadeIn(200);
+            }else if ($(this).val().length === 0){
+                $(searchBox).fadeOut(200);
+            }
+        });
 
     // ===================================================================================================
     // ========================================== WINDOW HISTORY =========================================

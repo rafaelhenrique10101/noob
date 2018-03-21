@@ -3,13 +3,67 @@
 @section('body')	
 <div class="bg-opacity-main" style="display: none"></div>
 <header id="header">
+    <div class="container-search-box">
+        <div class="ft-left-p-rel w-100pc h-100pc">
+            <div class="item-search-box">
+                <div class="container-img-result-item-search-box">
+                    <img src="https://lh3.googleusercontent.com/cuLx0n8OwKrXyGK70WsC_4-Net_zAffP9cbbbBPjT5O3R4BnzsYFpMbdcmj9uBgELGcSUtDWg0LI3Nyfnw=s169-rj" style="width: 40px;"/>
+                </div>
+                <div class="container-txts-item-search-box">
+    	            <div class="content-txt-line-search-box1">
+                        <span class="txt-size-18px txt-weight-600 txt-grey-2">Call of Duty: WWII</span>
+                    </div>
+                    <div class="content-txt-line-search-box2">
+                        <span class="txt-size-13px txt-weight-400">2018</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item-search-box">
+                <div class="container-img-result-item-search-box">
+                    <img src="https://yt3.ggpht.com/TFtdxX8p1yvXcvpdEd_XGa16VjkJGjxiLuBfeOgpo5AiFoCRbCiXXGkpxWmEkNjFgK2zytxE0rCMoaYD=s256-nd-rj" style="width: 40px;"/>
+                </div>
+                <div class="container-txts-item-search-box">
+    	            <div class="content-txt-line-search-box1">
+                        <span class="txt-size-18px txt-weight-600 txt-grey-2">Call of Duty: WWII</span>
+                    </div>
+                    <div class="content-txt-line-search-box2">
+                        <span class="txt-size-13px txt-weight-400">2018</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item-search-box">
+                <div class="container-img-result-item-search-box">
+                    <img src="https://lh3.googleusercontent.com/cuLx0n8OwKrXyGK70WsC_4-Net_zAffP9cbbbBPjT5O3R4BnzsYFpMbdcmj9uBgELGcSUtDWg0LI3Nyfnw=s169-rj" style="width: 40px;"/>
+                </div>
+                <div class="container-txts-item-search-box">
+    	            <div class="content-txt-line-search-box1">
+                        <span class="txt-size-18px txt-weight-600 txt-grey-2">Call of Duty: WWII</span>
+                    </div>
+                    <div class="content-txt-line-search-box2">
+                        <span class="txt-size-13px txt-weight-400">2018</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item-search-box">
+                <div class="container-img-result-item-search-box">
+                    <img src="https://lh3.googleusercontent.com/cuLx0n8OwKrXyGK70WsC_4-Net_zAffP9cbbbBPjT5O3R4BnzsYFpMbdcmj9uBgELGcSUtDWg0LI3Nyfnw=s169-rj" style="width: 40px;"/>
+                </div>
+                <div class="container-txts-item-search-box">
+    	            <div class="content-txt-line-search-box1">
+                        <span class="txt-size-18px txt-weight-600 txt-grey-2">Call of Duty: WWII</span>
+                    </div>
+                    <div class="content-txt-line-search-box2">
+                        <span class="txt-size-13px txt-weight-400">2018</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="card-head">
         <div class="container-input-top w-60pc ft-left-p-rel al-center mg-tp-bt-10px">
             <input type="text" class="form-control pd-rg-lt-15px" id="id_search_main" placeholder="Pesquise jogos, canais e videos">
             <div class="form-control-line"></div>
-            <div class="ft-left-p-ab w-100pc mg-tp-10px" style="height: 300px; border-radius: 3px; background-color: #fff">
-                
-            </div>
+            
         </div>
         <div class="w-20pc ft-right-p-rel mg-tp-bt-10px">
             <div class="margin-user-img">
