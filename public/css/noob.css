@@ -1,3 +1,7 @@
+/*
+Color accent #52aedf
+*/
+
 .content-body{
     float: left;
     position: relative;
@@ -30,8 +34,8 @@
 .rounded{
     border-radius: 50%;
 }
-.col-thumb{    
-    height: 246px !important;
+.col-thumb{
+    height: 270px !important;
     padding-right: 16px !important;
     padding-bottom: 20px !important;
 }
@@ -333,7 +337,7 @@
     color: rgba(255, 255, 255, 0.7);
 }
 .txt-grey-2{
-    color: #333;
+    color: #333333eb;
 }
 .h-h1{
     color: rgba(255, 255, 255, 0.7) !important;
@@ -377,8 +381,8 @@
     float: left;
     position: relative;
     width: 100%;
-    height: 85px;
-    padding: 10px 15px;
+    /* height: 85px; */
+    padding: 10px 20px;
 }
 .item-search-box:hover{
     background-color: #efefef;
@@ -390,17 +394,71 @@
     margin-right: 15px;
 }
 .container-txts-item-search-box{
-    height: 100%;
     width: calc(100% - 58px);
     float: right;
 }
 .content-txt-line-search-box1{
-    height: 50%;
+    height: 35px;
     width: 100%;
     line-height: 40px;
 }
 .content-txt-line-search-box2{
     height: 50%;
     width: 100%;
-    line-height: 15px;
+    line-height: 10px;
+}
+
+
+/*
+
+*/
+@media (max-width:768px){
+
+    .center-content-body{
+        width: calc(100% - 30px);
+        float: left;
+        position: relative;
+        padding: 20px 0;
+    }
+    .h-h1{
+        color: rgba(255, 255, 255, 0.7) !important;
+        font-size: 15px !important;
+        font-weight: 500 !important;
+        flex-basis: 0.000000001px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 0 !important;
+        background: transparent !important;
+        font-family: Roboto, Arial, sans-serif !important;
+        margin-top: 32px !important;
+        margin-bottom: 12px !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+}
+
+@media (min-width:1331px){
+    .col-grid-videos{
+        width: 25%;
+    }
+}
+@media all and (min-width: 648px) and (max-width: 1330px){
+    .col-grid-videos{
+        width: 33.33%;
+    }
+}   
+@media all and (min-width: 415px) and (max-width: 647px){
+    .col-grid-videos{
+        width: 50%;
+    }
+}
+@media all and (min-width: 215px) and (max-width: 414px){
+    .col-grid-videos{
+        width: 100%;
+    }
+    .col-thumb {
+        min-height: 270px !important;
+        padding-right: 0px !important;
+        padding-bottom: 20px !important;
+    }    
 }
