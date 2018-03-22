@@ -421,17 +421,7 @@ Color accent #52aedf
         padding: 20px 0;
     }
     .h-h1{
-        color: rgba(255, 255, 255, 0.7) !important;
-        font-size: 15px !important;
-        font-weight: 500 !important;
-        flex-basis: 0.000000001px !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        border: 0 !important;
-        background: transparent !important;
-        font-family: Roboto, Arial, sans-serif !important;
-        margin-top: 32px !important;
-        margin-bottom: 12px !important;
+        
         margin-left: 15px !important;
         margin-right: 15px !important;
     }
