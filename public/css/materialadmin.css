@@ -1217,8 +1217,7 @@ a.text-success:hover {
 #header {
   position: fixed;
   left: 0;
-  right: 0;
-  height: 112px;
+  right: 0;  
   z-index: 1005;
   background: rgb(51, 51, 51);
   color: rgba(49, 53, 52, 0.6);
@@ -5041,7 +5040,7 @@ li.dropdown-progress .progress {
   border-radius: 2px 2px 0 0;
 }
 .tabs-top{
-  min-height: 48px;
+  min-height: 50px;
 }
 .card-head:before,
 .card-head:after {
