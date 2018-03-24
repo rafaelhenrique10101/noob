@@ -38,8 +38,8 @@ Color accent #52aedf
 }
 .col-thumb{
     min-height: 270px !important;
-    padding-right: 8px !important;
-    padding-left: 8px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
     padding-bottom: 20px !important;
 }
 .img-thumb{
@@ -204,6 +204,31 @@ Color accent #52aedf
 }
 .mg-lf-rg-45px{
     margin: 0 45px;
+}
+.mg-lt-5px{
+    margin-left: 5px;
+}
+.mg-lt-10px{
+    margin-left: 10px;
+}
+.mg-lt-15px{
+    margin-left: 15px;
+}
+.mg-lt-20px{
+    margin-left: 20px;
+}
+
+.mg-rg-5px{
+    margin-right: 5px;
+}
+.mg-rg-10px{
+    margin-right: 10px;
+}
+.mg-rg-15px{
+    margin-right: 15px;
+}
+.mg-rg-20px{
+    margin-right: 20px;
 }
 
 .pd-rg-lt-5px{
@@ -455,6 +480,11 @@ Color accent #52aedf
     }
     .container-search-box{        
         width: 90%;        
+    }
+}
+@media all and (max-width:1280px){
+    #id_select_game{
+        display: none;
     }
 }
 @media all and (min-width: 1729px){

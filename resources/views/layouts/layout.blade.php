@@ -100,14 +100,19 @@
     </div>
     <div class="card-head">
         <div class="w-20pc ft-left-p-rel mg-tp-bt-10px">
-            
+            <div class="ft-left-p-rel pd-rg-lt-20px mg-tp-bt-10px">
+                <img src="img/svg/icons/ic_menu_white_24px.svg">
+            </div>
+            <div class="ft-left-p-rel pd-rg-lt-20px mg-tp-bt-5px">
+                <img src="img/svg/icons/ic_games_white_24px.svg" style="width: 35px;">
+            </div>
         </div>
         <div class="container-input-top w-60pc ft-left-p-rel al-center mg-tp-bt-10px p-ab">
             <input type="text" class="form-control pd-rg-lt-15px" id="id_search_main" placeholder="Pesquise jogos, canais e videos">
             <div class="form-control-line"></div>
             
         </div>
-        <div class="w-20pc ft-right-p-rel mg-tp-bt-10px">
+        <div class="ft-right-p-rel mg-tp-bt-10px">
             <div class="margin-user-img">
                 <div class="btn-group">                                    																			
                     <button type="button" class="btn ink-reaction btn-floating-action btn-sm bg-rounded-button" data-toggle="dropdown" aria-expanded="false">
@@ -142,6 +147,9 @@
                     </ul>
                 </div>
             </div>
+            <button type="button" id="id_select_game" class="btn ink-reaction btn-raised btn-primary mg-tp-bt-5px ft-right-p-rel">Selecione o game
+                <i class="fa fa-caret-down mg-lt-5px"></i>
+            </button>
         </div>
     </div>
     <div class="card-head tabs-top">
