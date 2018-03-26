@@ -16,7 +16,7 @@
     <link type="text/css" rel="stylesheet" href="css/materialadmin.css">
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="css/material-design-iconic-font.min.css">
-
+    <link href="img/svg/icons/ic_games_white_24px.svg" type="image/x-icon" rel="icon">
 	
 		<!-- END STYLESHEETS -->
 

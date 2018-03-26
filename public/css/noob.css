@@ -127,6 +127,9 @@ Color accent #52aedf
 .w-100pc{
     width: 100%;
 }
+.w-100pc-item-game-selected{
+    width: calc(100% - 100px);
+}
 .ft-left-p-rel{
     float: left;
     position: relative;
@@ -146,6 +149,12 @@ Color accent #52aedf
 .al-center{
     left: 50%;
     transform: translateX(-50%);
+}
+.txt-left{
+    text-align: left;
+}
+.txt-right{
+    text-align: right;
 }
 .txt-center{
     text-align: center;
@@ -316,6 +325,13 @@ Color accent #52aedf
     top: 40px;
     right: -10px;
 }
+.position-dp-selec-games{
+    width: 360px;
+    padding-bottom: 0;
+    top: 40px;
+    right: 0px;
+    min-height: 50px;
+}
 .font-rb{
     font-family: Roboto, Arial, sans-serif;
 }
@@ -394,7 +410,7 @@ Color accent #52aedf
 .item-menu{
     padding: 10px 8px;
     color: #fff;
-    height: 44px;
+    min-height: 44px;
     line-height: 24px;
 }
 .item-menu:hover{

@@ -147,9 +147,49 @@
                     </ul>
                 </div>
             </div>
-            <button type="button" id="id_select_game" class="btn ink-reaction btn-raised btn-primary mg-tp-bt-5px ft-right-p-rel">Selecione o game
-                <i class="fa fa-caret-down mg-lt-5px"></i>
-            </button>
+            <div class="btn-group">  
+                <button type="button" id="id_select_game" class="btn ink-reaction btn-raised btn-primary mg-tp-bt-5px ft-right-p-rel">Selecione o game
+                    <i class="fa fa-caret-down mg-lt-5px"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right position-dp-selec-games" style="display: block;">
+                    <div class="ft-left-p-rel mg-tp-bt-5px txt-center w-100pc">
+                        <div class="item-menu ft-left-p-rel w-100pc">
+                            <div class="ft-left-p-rel mg-lf-rg-10px">
+                                <img src="img/thumbs/games/cs.jpg" style="width: 58px;">
+                            </div>
+                            <div class="ft-left-p-rel mg-lf-rg-10px w-100pc-item-game-selected">
+                                <div class="txt-left">
+                                    <span class="font-rb txt-size-14px txt-weight-400">Counter-Strike: Global Offensive</span>
+                                </div>
+                                <div></div>
+                            </div>                               
+                        </div>
+                        <div class="item-menu ft-left-p-rel w-100pc">
+                            <div class="ft-left-p-rel mg-lf-rg-10px">
+                                <img src="img/thumbs/games/gta.jpg" style="width: 58px;">
+                            </div>
+                            <div class="ft-left-p-rel mg-lf-rg-10px w-100pc-item-game-selected">
+                                <div class="txt-left">
+                                    <span class="font-rb txt-size-14px txt-weight-400">Grand Theft Auto V</span>
+                                </div>
+                                <div></div>
+                            </div>                           
+                        </div>
+                        <div class="item-menu ft-left-p-rel w-100pc">
+                            <div class="ft-left-p-rel mg-lf-rg-10px">
+                                <img src="img/thumbs/games/roblox.jpg" style="width: 58px;">
+                            </div>  
+                            <div class="ft-left-p-rel mg-lf-rg-10px w-100pc-item-game-selected">
+                                <div class="txt-left">
+                                    <span class="font-rb txt-size-14px txt-weight-400">Roblox</span>
+                                </div>
+                                <div></div>
+                            </div>   
+                                                      
+                        </div>
+                    </div>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="card-head tabs-top">
