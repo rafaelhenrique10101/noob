@@ -118,7 +118,7 @@
                     <button type="button" class="btn ink-reaction btn-floating-action btn-sm bg-rounded-button" data-toggle="dropdown" aria-expanded="false">
                         <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 32px;">
                     </button>
-                    <ul class="dropdown-menu dropdown-menu-right position-dp-user" role="menu">
+                    <ul class="dropdown-menu dropdown-menu-right position-dp-user" role="menu" menu="drop-user-menu">
                         <div class="ft-left-p-rel mg-tp-bt-10px txt-center w-100pc">
                             <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 100px;"/>                            
                         </div>

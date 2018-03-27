@@ -8,13 +8,14 @@ $(document).ready(function (){
     var searchInput = $('#id_search_main');
     var btnSelectGame = $('#id_select_game');
     var dropGameSelect = $("ul[menu='drop-select-game']");
+    var dropUserMenu = $("ul[menu='drop-user-menu'");
 
     // CONSTANTES
 
 
 
     $(document).click(function(){
-        $(dropGameSelect).fadeOut(200);
+        $(dropGameSelect).fadeOut(200);        
     });
 
 
@@ -58,6 +59,9 @@ $(document).ready(function (){
     // ===================================================================================================
 
     $(btnSelectGame).click(function (e){
+
+        $(dropUserMenu).fadeOut(200);
+        
         $(dropGameSelect).fadeIn(200);
 
         e.stopPropagation();
