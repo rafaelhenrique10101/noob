@@ -18,7 +18,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -34,7 +34,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">C9 vs. FLY - CLG vs. TSM - FOX vs. 100 - TL vs. OPT | NA LCS Spring (2018)</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -50,7 +50,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -66,7 +66,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">TLA vs. FOXA | Semifinals Day 1 | NA Academy Spring Split (2018)</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -82,7 +82,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">*NEW* HEAVY SHOTGUN - Fortnite Battle Royale LIVE</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -98,7 +98,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">RESIDENT EVIL 4 - SEM TOMAR DANO, LEVOU 1 HIT RESETA - PROFISSIONAL</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -114,7 +114,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">Live - Fifa 2018 Teste - Primeira vez que jogo FIFA - Direto do X360</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -130,7 +130,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">EA FIFA WORLD CUP 2018 A NOVELA CONTINUA</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -151,7 +151,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -167,7 +167,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">C9 vs. FLY - CLG vs. TSM - FOX vs. 100 - TL vs. OPT | NA LCS Spring (2018)</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -183,7 +183,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -199,7 +199,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">TLA vs. FOXA | Semifinals Day 1 | NA Academy Spring Split (2018)</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -215,7 +215,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">*NEW* HEAVY SHOTGUN - Fortnite Battle Royale LIVE</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -231,7 +231,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">RESIDENT EVIL 4 - SEM TOMAR DANO, LEVOU 1 HIT RESETA - PROFISSIONAL</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -247,7 +247,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">Live - Fifa 2018 Teste - Primeira vez que jogo FIFA - Direto do X360</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>
@@ -263,7 +263,7 @@
                             <span class="txt-size-15px txt-weight-500 txt-white">EA FIFA WORLD CUP 2018 A NOVELA CONTINUA</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
-                            <span class="txt-size-13px txt-weight-400 txt-grey-3">bazattak007</span>
+                            <span class="txt-size-13px txt-weight-400 txt-grey-1">bazattak007</span>
                         </div>
                         <div class="ft-left-p-rel w-100pc">
                             <span class="txt-size-13px txt-weight-500 txt-white">72 assistindo</span>

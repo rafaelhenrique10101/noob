@@ -151,7 +151,7 @@
                 <button type="button" id="id_select_game" class="btn ink-reaction btn-raised btn-primary mg-tp-bt-5px ft-right-p-rel">Selecione o game
                     <i class="fa fa-caret-down mg-lt-5px"></i>
                 </button>
-                <ul class="dropdown-menu dropdown-menu-right position-dp-selec-games" style="display: block;">
+                <ul class="dropdown-menu dropdown-menu-right position-dp-selec-games" menu="drop-select-game">
                     <div class="ft-left-p-rel mg-tp-bt-5px txt-center w-100pc">
                         <div class="item-menu ft-left-p-rel w-100pc">
                             <div class="ft-left-p-rel mg-lf-rg-10px">
@@ -161,7 +161,12 @@
                                 <div class="txt-left">
                                     <span class="font-rb txt-size-14px txt-weight-400">Counter-Strike: Global Offensive</span>
                                 </div>
-                                <div></div>
+                                <div class="txt-left v-aling-desc-game-selected">
+                                    <span class="font-rb txt-size-13px txt-weight-400 txt-grey-3">Conhe&ccedil;a o game de tiro em primeira pessoa mais famoso do mundo</span>
+                                </div>
+                                <div class="txt-left tag-chip-rounded-blue">
+                                    <span class="font-rb txt-size-11px txt-weight-400 txt-white">Video novo: 2</span>
+                                </div>
                             </div>                               
                         </div>
                         <div class="item-menu ft-left-p-rel w-100pc">
@@ -172,7 +177,12 @@
                                 <div class="txt-left">
                                     <span class="font-rb txt-size-14px txt-weight-400">Grand Theft Auto V</span>
                                 </div>
-                                <div></div>
+                                <div class="txt-left v-aling-desc-game-selected">
+                                    <span class="font-rb txt-size-13px txt-weight-400 txt-grey-3">Conhe&ccedil;a o game de tiro em primeira pessoa mais famoso do mundo</span>
+                                </div>
+                                <div class="txt-left tag-chip-rounded-blue">
+                                    <span class="font-rb txt-size-11px txt-weight-400 txt-white">Video novo: 2</span>
+                                </div>
                             </div>                           
                         </div>
                         <div class="item-menu ft-left-p-rel w-100pc">
@@ -183,7 +193,12 @@
                                 <div class="txt-left">
                                     <span class="font-rb txt-size-14px txt-weight-400">Roblox</span>
                                 </div>
-                                <div></div>
+                                <div class="txt-left v-aling-desc-game-selected">
+                                    <span class="font-rb txt-size-13px txt-weight-400 txt-grey-3">Conhe&ccedil;a o game de tiro em primeira pessoa mais famoso do mundo</span>
+                                </div>
+                                <div class="txt-left tag-chip-rounded-blue">
+                                    <span class="font-rb txt-size-11px txt-weight-400 txt-white">Video novo: 2</span>
+                                </div>
                             </div>   
                                                       
                         </div>

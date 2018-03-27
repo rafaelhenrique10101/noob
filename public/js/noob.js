@@ -6,12 +6,16 @@ $(document).ready(function (){
     var tabsTop = $('.tabs-center').find('li');
     var searchBox = $('.container-search-box');
     var searchInput = $('#id_search_main');
+    var btnSelectGame = $('#id_select_game');
+    var dropGameSelect = $("ul[menu='drop-select-game']");
 
     // CONSTANTES
 
 
 
-
+    $(document).click(function(){
+        $(dropGameSelect).fadeOut(200);
+    });
 
 
     // ===================================================================================================
@@ -48,4 +52,18 @@ $(document).ready(function (){
     // ===================================================================================================
 
 
+
+    // ===================================================================================================
+    // ========================================== BOX GAME SELECT ========================================
+    // ===================================================================================================
+
+    $(btnSelectGame).click(function (e){
+        $(dropGameSelect).fadeIn(200);
+
+        e.stopPropagation();
+    });
+
+    $(dropGameSelect).click(function (e){
+        e.stopPropagation();
+    });
 });
