@@ -2,6 +2,8 @@
 
 @section('body')	
 <div class="bg-opacity-main" style="display: none"></div>
+<ul class="dropdown-menu position-menu-main" role="main-menu">
+</ul>
 <header id="header">
 
     <div class="container-search-box">
