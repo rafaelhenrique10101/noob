@@ -165,159 +165,231 @@ Color accent #52aedf
     text-align: center;
 }
 .mg-tp-bt-5px{
-    margin: 5px 0;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
 }
 .mg-tp-bt-10px{
-    margin: 10px 0;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 .mg-tp-bt-15px{
-    margin: 15px 0;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
 }
 .mg-tp-bt-20px{
-    margin: 20px 0;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
 }
 .mg-tp-bt-25px{
-    margin: 25px 0;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
 }
 .mg-tp-bt-30px{
-    margin: 30px 0;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
 }
 .mg-tp-bt-35px{
-    margin: 35px 0;
+    margin-top: 35px !important;
+    margin-bottom: 35px !important;
 }
 .mg-tp-bt-40px{
-    margin: 40px 0;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
 }
 .mg-tp-bt-45px{
-    margin: 45px 0;
+    margin-top: 45px !important;
+    margin-bottom: 45px !important;
 }
 
 .mg-lf-rg-5px{
-    margin: 0 5px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
 }
 .mg-lf-rg-10px{
-    margin: 0 10px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
 }
 .mg-lf-rg-15px{
-    margin: 0 15px;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
 }
 .mg-lf-rg-20px{
-    margin: 0 20px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
 }
 .mg-lf-rg-25px{
-    margin: 0 25px;
+    margin-left: 25px !important;
+    margin-right: 25px !important;
 }
 .mg-lf-rg-30px{
-    margin: 0 30px;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
 }
 .mg-lf-rg-35px{
-    margin: 0 35px;
+    margin-left: 35px !important;
+    margin-right: 35px !important;
 }
 .mg-lf-rg-40px{
-    margin: 0 40px;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
 }
 .mg-lf-rg-45px{
-    margin: 0 45px;
+    margin-left: 45px !important;
+    margin-right: 45px !important;
 }
 .mg-lt-5px{
-    margin-left: 5px;
+    margin-left: 5px !important;
 }
 .mg-lt-10px{
-    margin-left: 10px;
+    margin-left: 10px !important;
 }
 .mg-lt-15px{
-    margin-left: 15px;
+    margin-left: 15px !important;
 }
 .mg-lt-20px{
-    margin-left: 20px;
+    margin-left: 20px !important;
 }
 
 .mg-rg-5px{
-    margin-right: 5px;
+    margin-right: 5px !important;
 }
 .mg-rg-10px{
-    margin-right: 10px;
+    margin-right: 10px !important;
 }
 .mg-rg-15px{
-    margin-right: 15px;
+    margin-right: 15px !important;
 }
 .mg-rg-20px{
-    margin-right: 20px;
+    margin-right: 20px !important;
 }
 
-.pd-rg-lt-5px{
-    padding: 0 5px;
+.pd-rg-lt-5px{    
+    padding-right: 5px !important;
+    padding-left: 5px !important;
 }
 .pd-rg-lt-10px{
-    padding: 0 10px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
 }
 .pd-rg-lt-15px{
-    padding: 0 15px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
 }
 .pd-rg-lt-20px{
-    padding: 0 20px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
 }
 .pd-rg-lt-25px{
-    padding: 0 25px;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
 }
 .pd-rg-lt-30px{
-    padding: 0 30px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
 }
 .pd-rg-lt-35px{
-    padding: 0 35px;
+    padding-right: 35px !important;
+    padding-left: 35px !important;
 }
 .pd-rg-lt-40px{
-    padding: 0 40px;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
 }
 .pd-rg-lt-45px{
-    padding: 0 45px;
+    padding-right: 45px !important;
+    padding-left: 45px !important;
 }
 
 
-.pd-tp-bt-5px{
-    padding: 5px 0;
+.pd-tp-bt-5px{    
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 .pd-tp-bt-10px{
-    padding: 10px 0;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 .pd-tp-bt-15px{
-    padding: 15px 0;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
 }
 .pd-tp-bt-20px{
-    padding: 20px 0;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
 }
 .pd-tp-bt-25px{
-    padding: 25px 0;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
 }
 .pd-tp-bt-30px{
-    padding: 30px 0;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
 }
 .pd-tp-bt-35px{
-    padding: 35px 0;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
 }
 .pd-tp-bt-40px{
-    padding: 40px 0;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
 }
 .pd-tp-bt-45px{
-    padding: 45px 0;
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+}
+.pd-bt-5px{
+    padding-bottom: 5px !important;
+}
+.pd-bt-10px{
+    padding-bottom: 10px !important;
+}
+.pd-bt-15px{
+    padding-bottom: 15px !important;
+}
+.pd-bt-20px{
+    padding-bottom: 20px !important;
+}
+.pd-tp-5px{
+    padding-top: 5px !important;
+}
+.pd-tp-10px{
+    padding-top: 10px !important;
+}
+.pd-tp-15px{
+    padding-top: 15px !important;
+}
+.pd-tp-20px{
+    padding-top: 20px !important;
+}
+.pd-5px{
+    padding: 5px !important;
+}
+.pd-10px{
+    padding: 10px !important;
+}
+.pd-15px{
+    padding: 15px !important;
+}
+.pd-20px{
+    padding: 20px !important;
 }
 .mg-tp-5px{
-    margin-top: 5px;
+    margin-top: 5px !important;
 }
 .mg-tp-10px{
-    margin-top: 10px;
+    margin-top: 10px !important;
 }
 .mg-tp-15px{
-    margin-top: 15px;
+    margin-top: 15px !important;
 }
 .mg-tp-20px{
-    margin-top: 20px;
+    margin-top: 20px !important;
 }
 .mg-tp-25px{
-    margin-top: 25px;
+    margin-top: 25px !important;
 }
 .mg-tp-30px{
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
 .margin-user-img{
     margin: 5px 15px;
@@ -338,16 +410,19 @@ Color accent #52aedf
     min-height: 50px;
     display: none;
 }
+.c-pointer{
+    cursor: pointer;
+}
 .position-menu-main{
     position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
     z-index: 9999;
-    display: block;
+    display: none;
     float: left;
-    width: 300px;
-    padding: 15px 15px;
+    width: 270px;
+    padding: 0;
     background-color: #333333;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4) !important;
 }
@@ -431,6 +506,9 @@ Color accent #52aedf
     margin-bottom: 12px !important;
     margin-left: 85px !important;
     margin-right: 85px !important;
+}
+.menu-bb{
+    border-bottom: solid 1px #cccccc26;
 }
 .item-menu{
     padding: 10px 8px;

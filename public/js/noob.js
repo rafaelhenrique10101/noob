@@ -1,5 +1,15 @@
 $(document).ready(function (){
 
+    // CONSTANTES
+
+    const FADE_IN_UP = "fadeInUp animated";
+    const FADE_IN_DOWN = "fadeInDown animated";
+    const FADE_OUT_UP = "fadeOutUp animated";
+    const FADE_OUT_DOWN = "fadeOutDown animated";
+    const FADE_OUT_RIGHT = "fadeOutRight animated";
+    const SLIDE_IN_LEFT = "slideInLeft animated";
+    const SLIDE_OUT_LEFT = "slideOutLeft animated";
+    const ANIMATION_END = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
 
     // INSTANCIA DE ELEMENTOS
 
@@ -9,9 +19,11 @@ $(document).ready(function (){
     var btnSelectGame = $('#id_select_game');
     var dropGameSelect = $("ul[menu='drop-select-game']");
     var dropUserMenu = $("ul[menu='drop-user-menu'");
+    var btnExpandMainMenu = $('#id_btn_expand_main_menu');
+    var btnCollapseMainMenu = $('#id_btn_collapse_main_menu');
+    var mainMenu = $("ul[role='main-menu'");
 
-    // CONSTANTES
-
+    
 
 
     $(document).click(function(){
@@ -70,4 +82,26 @@ $(document).ready(function (){
     $(dropGameSelect).click(function (e){
         e.stopPropagation();
     });
+
+
+    // ===================================================================================================
+    // ========================================== LEFT MENU ==============================================
+    // ===================================================================================================
+
+    $(btnExpandMainMenu).click(function(e){
+        $(mainMenu).show();
+
+        $(mainMenu).addClass(SLIDE_IN_LEFT).one(ANIMATION_END, function () {
+            $(mainMenu).removeClass(SLIDE_IN_LEFT);
+        });
+    });
+
+    $(btnCollapseMainMenu).click(function(e){
+        $(mainMenu).addClass(SLIDE_OUT_LEFT).one(ANIMATION_END, function () {
+            $(mainMenu).removeClass(SLIDE_OUT_LEFT);        
+            $(mainMenu).hide();
+        });
+    });
+    
+    
 });
