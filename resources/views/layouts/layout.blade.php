@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('body')	
-<div class="bg-opacity-main" style="display: none"></div>
+<div class="bg-opacity-main"></div>
+<div class="bg-opacity-content"></div>
 <ul class="dropdown-menu position-menu-main" role="main-menu">
     <div class="ft-left-p-rel w-100pc pd-tp-bt-10px menu-bb">
         <div class="w-100pc ft-left-p-rel">
@@ -13,71 +14,73 @@
             </div>
         </div>
     </div>
-    <div class="ft-left-p-rel w-100pc">
-        <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
-            <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
-                <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
-            </div>
-            <div class="item-menu" role="link-main-menu">
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <img src="img/svg/icons/ic_person_white_24px.svg">
+    <div class="ft-left-p-rel w-100pc ovf-main-menu">
+        <div class="ft-left-p-rel w-100pc">
+            <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
+                <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
+                    <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
                 </div>
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
                 </div>
-            </div>
-            <div class="item-menu" role="link-main-menu">
-                 <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <img src="img/svg/icons/ic_person_white_24px.svg">
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
                 </div>
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                </div>
-            </div>
-            <div class="item-menu" role="link-main-menu">
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <img src="img/svg/icons/ic_person_white_24px.svg">
-                </div>
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                </div>
-            </div>
-        </div>
-        <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
-            <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
-                <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
-            </div>
-            <div class="item-menu" role="link-main-menu">
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <img src="img/svg/icons/ic_person_white_24px.svg">
-                </div>
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
                 </div>
             </div>
-            <div class="item-menu" role="link-main-menu">
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <img src="img/svg/icons/ic_person_white_24px.svg">
+            <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
+                <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
+                    <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
                 </div>
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
                 </div>
             </div>
-            <div class="item-menu" role="link-main-menu">
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <img src="img/svg/icons/ic_person_white_24px.svg">
+            <div class="ft-left-p-rel w-100pc pd-bt-15px">
+                <div class="item-menu" role="link-main-menu">
                 </div>
-                <div class="ft-left-p-rel mg-lf-rg-10px">
-                    <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                <div class="item-menu" role="link-main-menu">
                 </div>
-            </div>
-        </div>
-        <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
-            <div class="item-menu" role="link-main-menu">
-            </div>
-            <div class="item-menu" role="link-main-menu">
-            </div>
-            <div class="item-menu" role="link-main-menu">
+                <div class="item-menu" role="link-main-menu">
+                </div>
             </div>
         </div>
     </div>
@@ -195,10 +198,10 @@
         <div class="ft-right-p-rel mg-tp-bt-10px">
             <div class="margin-user-img">
                 <div class="btn-group">                                    																			
-                    <button type="button" class="btn ink-reaction btn-floating-action btn-sm bg-rounded-button" data-toggle="dropdown" aria-expanded="false">
+                    <button type="button" class="btn ink-reaction btn-floating-action btn-sm bg-rounded-button" data-toggle="dropdown" aria-expanded="false" id="id_btn_user_options">
                         <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 32px;">
                     </button>
-                    <ul class="dropdown-menu dropdown-menu-right position-dp-user" role="menu" menu="drop-user-menu">
+                    <ul class="dropdown-menu dropdown-menu-right position-dp-user" role="dd-user-options" menu="drop-user-menu">
                         <div class="ft-left-p-rel mg-tp-bt-10px txt-center w-100pc">
                             <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 100px;"/>                            
                         </div>
