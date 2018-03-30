@@ -7,7 +7,7 @@
     <div class="ft-left-p-rel w-100pc pd-tp-bt-10px menu-bb">
         <div class="w-100pc ft-left-p-rel">
             <div class="ft-left-p-rel pd-rg-lt-20px pd-tp-bt-10px c-pointer" id="id_btn_collapse_main_menu">
-                <img src="img/svg/icons/ic_menu_white_24px.svg">
+                <img src="/img/svg/icons/ic_menu_white_24px.svg">
             </div>
             <div class="ft-left-p-rel pd-rg-lt-20px">
                 
@@ -22,7 +22,7 @@
                 </div>
                 <div class="item-menu" role="link-main-menu">
                     <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
                     </div>
                     <div class="ft-left-p-rel mg-lf-rg-10px">
                         <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="item-menu" role="link-main-menu">
                     <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
                     </div>
                     <div class="ft-left-p-rel mg-lf-rg-10px">
                         <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="item-menu" role="link-main-menu">
                     <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
                     </div>
                     <div class="ft-left-p-rel mg-lf-rg-10px">
                         <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="item-menu" role="link-main-menu">
                     <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
                     </div>
                     <div class="ft-left-p-rel mg-lf-rg-10px">
                         <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="item-menu" role="link-main-menu">
                     <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
                     </div>
                     <div class="ft-left-p-rel mg-lf-rg-10px">
                         <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
@@ -67,19 +67,127 @@
                 </div>
                 <div class="item-menu" role="link-main-menu">
                     <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="img/svg/icons/ic_person_white_24px.svg">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
                     </div>
                     <div class="ft-left-p-rel mg-lf-rg-10px">
                         <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
                     </div>
                 </div>
             </div>
-            <div class="ft-left-p-rel w-100pc pd-bt-15px">
-                <div class="item-menu" role="link-main-menu">
+            <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
+                <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
+                    <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
                 </div>
                 <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
                 </div>
                 <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
+                <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
+                    <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
+                <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
+                    <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
+                <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
+                    <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
+                </div>
+                <div class="item-menu" role="link-main-menu">
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <img src="/img/svg/icons/ic_person_white_24px.svg">
+                    </div>
+                    <div class="ft-left-p-rel mg-lf-rg-10px">
+                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -184,10 +292,10 @@
     <div class="card-head">
         <div class="w-20pc ft-left-p-rel mg-tp-bt-10px">
             <div class="ft-left-p-rel pd-rg-lt-20px mg-tp-bt-10px c-pointer" id="id_btn_expand_main_menu">
-                <img src="img/svg/icons/ic_menu_white_24px.svg">
+                <img src="/img/svg/icons/ic_menu_white_24px.svg">
             </div>
             <div class="ft-left-p-rel pd-rg-lt-20px mg-tp-bt-5px">
-                <img src="img/svg/icons/ic_games_white_24px.svg" style="width: 35px;">
+                <img src="/img/svg/icons/ic_games_white_24px.svg" style="width: 35px;">
             </div>
         </div>
         <div class="container-input-top w-60pc ft-left-p-rel al-center mg-tp-bt-10px p-ab">
@@ -212,7 +320,7 @@
                         <div class="ft-left-p-rel mg-tp-20px w-100pc">
                             <div class="item-menu">
                                 <div class="ft-left-p-rel mg-lf-rg-10px">
-                                    <img src="img/svg/icons/ic_person_white_24px.svg" />
+                                    <img src="/img/svg/icons/ic_person_white_24px.svg" />
                                 </div>
                                 <div class="ft-left-p-rel mg-lf-rg-10px">
                                     <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
@@ -220,7 +328,7 @@
                             </div>
                             <div class="item-menu">
                                 <div class="ft-left-p-rel mg-lf-rg-10px">
-                                    <img src="img/svg/icons/ic_power_settings_new_white_24px.svg" />
+                                    <img src="/img/svg/icons/ic_power_settings_new_white_24px.svg" />
                                 </div>
                                 <div class="ft-left-p-rel mg-lf-rg-10px">
                                     <span class="font-rb txt-size-14px txt-weight-400">Sair</span>
@@ -238,7 +346,7 @@
                     <div class="ft-left-p-rel mg-tp-bt-5px txt-center w-100pc">
                         <div class="item-menu ft-left-p-rel w-100pc">
                             <div class="ft-left-p-rel mg-lf-rg-10px">
-                                <img src="img/thumbs/games/cs.jpg" style="width: 58px;">
+                                <img src="/img/thumbs/games/cs.jpg" style="width: 58px;">
                             </div>
                             <div class="ft-left-p-rel mg-lf-rg-10px w-100pc-item-game-selected">
                                 <div class="txt-left">
@@ -254,7 +362,7 @@
                         </div>
                         <div class="item-menu ft-left-p-rel w-100pc">
                             <div class="ft-left-p-rel mg-lf-rg-10px">
-                                <img src="img/thumbs/games/gta.jpg" style="width: 58px;">
+                                <img src="/img/thumbs/games/gta.jpg" style="width: 58px;">
                             </div>
                             <div class="ft-left-p-rel mg-lf-rg-10px w-100pc-item-game-selected">
                                 <div class="txt-left">
@@ -270,7 +378,7 @@
                         </div>
                         <div class="item-menu ft-left-p-rel w-100pc">
                             <div class="ft-left-p-rel mg-lf-rg-10px">
-                                <img src="img/thumbs/games/roblox.jpg" style="width: 58px;">
+                                <img src="/img/thumbs/games/roblox.jpg" style="width: 58px;">
                             </div>  
                             <div class="ft-left-p-rel mg-lf-rg-10px w-100pc-item-game-selected">
                                 <div class="txt-left">

@@ -25,10 +25,7 @@ $(document).ready(function (){
     var mainMenu = $("ul[role='main-menu'");
     var bgOpacityMain = $('.bg-opacity-main');
     var bgOpacityContent = $('.bg-opacity-content');
-    var btnUserOptions = $('#id_btn_user_options');
-
-    
-
+    var btnUserOptions = $('#id_btn_user_options');        
 
     $(document).click(function(){
         $(dropGameSelect).fadeOut(200);  

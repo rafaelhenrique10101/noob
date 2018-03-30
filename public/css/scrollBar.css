@@ -1,0 +1,36 @@
+.sb-container{
+    position: relative;
+    overflow: hidden;
+    padding-right: 10px;
+}
+.sb-content {
+  height:100%;
+  width: 120%;
+  /* padding-right: 20%; */
+  overflow-y: scroll;
+  box-sizing:border-box;
+}
+.sb-scrollbar-container {
+    position: absolute;
+    right: 1px;
+    bottom: 5px;
+    top: 5px;
+    width: 5px;
+    z-index: 9;
+}
+.sb-container-noscroll .sb-scrollbar-container {
+    right: -20px;
+}
+
+.sb-scrollbar {
+  position: absolute;
+  right: 0;
+  height: 137px;
+  width: 5px;
+  border-radius: 10px;
+  background: #505050;
+}
+
+.sb-scrollbar:hover {
+    background: rgba(218, 11, 92, 0.5);
+}

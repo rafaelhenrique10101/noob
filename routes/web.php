@@ -2,15 +2,38 @@
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Index Site Routes
 |--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
 */
 
-Route::get('/', function () {
-    return view('site.index');
+$this->get('/', 'Site\SiteController@index')->name('site.index');
+$this->post('/', 'Site\SiteController@index')->name('site.index');
+
+$this->get('/watch/{id}', 'Site\SiteController@watch')->name('site.watch');
+$this->post('/watch/{id}', 'Site\SiteController@watch')->name('site.watch');
+
+// As rotas abaixo só são acessíveis com o usuário autenticado
+
+$this->group(['middleware' => ['auth'], 'namespace' => 'Admin', 'prefix' => 'admin'], function (){
+    
+    //Routes requested by AJAX
+/*
+    $this->post('deposit', 'BalanceController@depositStore')->name('deposit.store');
+    $this->post('withdraw', 'BalanceController@withdrawStore')->name('withdraw.store');
+    $this->post('transfer', 'BalanceController@confirmTransfer')->name('withdraw.store');
+    
+    
+    
+    //Modals routes
+
+    $this->get('modal_recharge', 'BalanceController@recharge')->name('balance.modal.recharge');
+    $this->get('modal_withdraw', 'BalanceController@withdraw')->name('balance.modal.withdraw');
+    $this->get('modal_transfer', 'BalanceController@transfer')->name('balance.modal.transfer');
+    
+    
+    //Routes requested by URL
+
+    $this->get('balance', 'BalanceController@index')->name('admin.balance');         
+    $this->get('/', 'AdminController@index')->name('admin.home'); 
+*/
 });
