@@ -3,6 +3,10 @@
 @section('body')	
 <div class="bg-opacity-main"></div>
 <div class="bg-opacity-content"></div>
+<div class="pos-spinner-main-white-1">
+    <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+</div>
+
 <ul class="dropdown-menu position-menu-main" role="main-menu">
     <div class="ft-left-p-rel w-100pc pd-tp-bt-10px menu-bb">
         <div class="w-100pc ft-left-p-rel">
@@ -16,122 +20,6 @@
     </div>
     <div class="ft-left-p-rel w-100pc ovf-main-menu">
         <div class="ft-left-p-rel w-100pc">
-            <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
-                <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
-                    <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-            </div>
-            <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
-                <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
-                    <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-            </div>
-            <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
-                <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
-                    <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-            </div>
-            <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
-                <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
-                    <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-                <div class="item-menu" role="link-main-menu">
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <img src="/img/svg/icons/ic_person_white_24px.svg">
-                    </div>
-                    <div class="ft-left-p-rel mg-lf-rg-10px">
-                        <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
-                    </div>
-                </div>
-            </div>
             <div class="ft-left-p-rel w-100pc pd-bt-15px menu-bb">
                 <div class="w-100pc pd-tp-bt-10px pd-rg-lt-20px">
                     <span class="font-rb txt-size-13px txt-weight-500 txt-grey-3 ">Início</span>
@@ -314,8 +202,8 @@
                             <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 100px;"/>                            
                         </div>
                         <div class="ft-left-p-rel mg-tp-bt-5px txt-center w-100pc" style="line-height: 22px;">                            
-                            <span class="txt-white txt-size-15px txt-weight-500">Rafael Henrique</span>
-                            <span class="txt-grey-1">rafaelhenrique10101@gmail.com</span>
+                            <span class="txt-white txt-size-15px txt-weight-500 font-rb">Rafael Henrique</span>
+                            <span class="txt-grey-1 font-rb">rafaelhenrique10101@gmail.com</span>
                         </div>
                         <div class="ft-left-p-rel mg-tp-20px w-100pc">
                             <div class="item-menu">
@@ -323,7 +211,7 @@
                                     <img src="/img/svg/icons/ic_person_white_24px.svg" />
                                 </div>
                                 <div class="ft-left-p-rel mg-lf-rg-10px">
-                                    <span class="font-rb txt-size-14px txt-weight-400">Meu perfil</span>
+                                    <span class="font-rb txt-size-14px txt-weight-400 font-rb">Meu perfil</span>
                                 </div>                                
                             </div>
                             <div class="item-menu">
@@ -331,7 +219,7 @@
                                     <img src="/img/svg/icons/ic_power_settings_new_white_24px.svg" />
                                 </div>
                                 <div class="ft-left-p-rel mg-lf-rg-10px">
-                                    <span class="font-rb txt-size-14px txt-weight-400">Sair</span>
+                                    <span class="font-rb txt-size-14px txt-weight-400 font-rb">Sair</span>
                                 </div>  
                             </div>
                         </div>
@@ -339,7 +227,7 @@
                 </div>
             </div>
             <div class="btn-group">  
-                <button type="button" id="id_select_game" class="btn ink-reaction btn-raised btn-primary mg-tp-bt-5px ft-right-p-rel">Selecione o game
+                <button type="button" id="id_select_game" class="btn ink-reaction btn-raised btn-primary mg-tp-bt-5px ft-right-p-rel font-rb">Selecione o game
                     <i class="fa fa-caret-down mg-lt-5px"></i>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-right position-dp-selec-games" menu="drop-select-game">
@@ -400,21 +288,24 @@
     </div>
     <div class="card-head tabs-top">
         <ul class="nav nav-tabs tabs-center" data-toggle="tabs">
-            <li class="active"><a href="home">P&Aacute;GINA INICIAL</a></li>
-            <li><a href="live">AO VIVO</a></li>
-            <li><a href="games">JOGOS</a></li>
-            <li><a href="channels">CANAIS</a></li>
+            <li class="active font-rb"><a href="home">P&Aacute;GINA INICIAL</a></li>
+            <li class="font-rb"><a href="live">AO VIVO</a></li>
+            <li class="font-rb"><a href="games">JOGOS</a></li>
+            <li class="font-rb"><a href="channels">CANAIS</a></li>
         </ul>
     </div>
 </header>
 <div id="base">	
     <div class="offcanvas">
     </div>
-        <div id="content">			
-            <section>                
-                @yield('content')                
+        <div class="padding-top-content">			
+            <section class="section-content">    
+                <div class="section-body ft-left-p-rel wh-100pc" style="margin-top: 0;">    
+                    <div class="content-body">            
+                        @yield('content')                
+                    </div>
+                </div>
             </section>
-        </div>
-    
+        </div>    
 </div>    
 @stop

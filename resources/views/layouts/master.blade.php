@@ -17,6 +17,7 @@
     <link type="text/css" rel="stylesheet" href="/css/materialadmin.css">
     <link type="text/css" rel="stylesheet" href="/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="/css/material-design-iconic-font.min.css">
+    <link type="text/css" rel="stylesheet" href="/css/material.css">
     <!--<link type="text/css" rel="stylesheet" href="css/scrollBar.css">-->
     <link href="img/logo.ico" type="image/x-icon" rel="icon">
 	
@@ -28,20 +29,9 @@
 		
     <script src="/js/jquery-3.2.1.min.js"></script>
     <script src="/js/noob.js"></script>
-    <!--<script src="./js/scrollBar.js"></script>-->
-    <script src="/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/spin.min.js"></script>
-    <script src="/js/jquery.autosize.min.js"></script>
-    <script src="/js/moment.min.js"></script>    
-    <script src="/js/jquery.knob.min.js"></script>
-    <script src="/js/jquery.sparkline.min.js"></script>
-    <script src="/js/jquery.nanoscroller.min.js"></script>    
-    <script src="/js/rickshaw.min.js"></script>    
-    <script src="/js/Demo.js"></script>
-    <script src="/js/DemoDashboard.js"></script>
-
-	  <style type="text/css"></style>  
+    <!--<script src="./js/scrollBar.js"></script>-->    
+    <script src="/js/bootstrap.min.js"></script>    
+    <script src="/js/material.js"></script>    	   
   </head>
     <body class="menubar-hoverable">
       @yield('body')	

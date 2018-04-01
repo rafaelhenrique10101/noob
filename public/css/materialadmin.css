@@ -1197,6 +1197,12 @@ a.text-success:hover {
   left: 0;
   padding-top: 112px;
 }
+.padding-top-content{
+    position: relative;
+  width: 100%;
+  left: 0;
+  padding-top: 112px;
+}
 @media (min-width: 1200px) {
   .menubar-pin #base {
     padding-left: 240px;
@@ -2464,9 +2470,7 @@ section.section-account .img-circle {
   }
 }
 @media (max-width: 768px) {
-  section {
-    padding: 12px;
-  }
+
   .full-content section.has-actions {
     padding-bottom: 64px;
   }
@@ -4796,6 +4800,10 @@ li.dropdown-progress .progress {
   float: none;
   display: inline-block;
 }
+.nav-tabs.tabs-center > li > a{
+  color: #fff;
+}
+
 .nav-tabs.tabs-center {
   text-align: center;
   height: 48px;

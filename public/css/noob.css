@@ -12,6 +12,9 @@ Color accent #52aedf
 ::-webkit-scrollbar-track {
     background-color: #333;
 }
+.body{
+    font-family: Roboto, Arial, sans-serif !important;
+}
 
 .p-ab{
     position: absolute !important;
@@ -120,6 +123,14 @@ Color accent #52aedf
 .h-100pc{
     height: 100%;
 }
+.section-content{
+    width: 100%;
+    height: calc(100% - 65px);
+}
+.wh-100pc{
+    width: 100%;
+    height: 100%;
+}
 .w-10pc{
     width: 10%;
 }
@@ -176,9 +187,54 @@ Color accent #52aedf
     float: right;
     position: absolute;
 }
+.container-watch-video{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.content-watch-video{
+    float: left;
+    position: relative;
+    width: calc(100% - 380px);
+    background-color: #333;
+    overflow-y: scroll;
+    height: 100%;
+}
+.video-player{
+    float: left !important;
+    position: relative !important;
+    max-width: 100% !important;
+    max-height: 680px !important;
+    min-height: 300px !important;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container-column-rigth-video{
+    float: right;
+    position: relative;
+    width: 380px;
+    height: 100%;
+    background-color: #4a9dca;
+}
+.pos-spinner-main-white-1{
+    position: fixed;
+    float: left;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    display: none;
+}
 .al-center{
     left: 50%;
     transform: translateX(-50%);
+}
+.al-center-video{
+    left: 50%;
+    transform: translateX(-50%);
+    float: left;
+    position: relative;
 }
 .txt-left{
     text-align: left;
@@ -455,8 +511,9 @@ Color accent #52aedf
     background-color: #333333;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4) !important;
 }
+
 .font-rb{
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif !important;
 }
 .txt-size-10px{
     font-size: 10px;

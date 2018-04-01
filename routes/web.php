@@ -5,19 +5,23 @@
 | Index Site Routes
 |--------------------------------------------------------------------------
 */
+$this->group(['namespace' => 'Site'], function (){
 
-$this->get('/', 'Site\SiteController@index')->name('site.index');
-$this->post('/', 'Site\SiteController@index')->name('site.index');
+    $this->get('/', 'SiteController@index')->name('site.index');
+    $this->post('/', 'SiteController@index')->name('site.index');
 
-$this->get('/watch/{id}', 'Site\SiteController@watch')->name('site.watch');
-$this->post('/watch/{id}', 'Site\SiteController@watch')->name('site.watch');
+    $this->get('/watch/{id}', 'SiteController@watch')->name('site.watch');
+    $this->post('/watch/{id}', 'SiteController@watch')->name('site.watch');
+
+});
+
 
 // As rotas abaixo só são acessíveis com o usuário autenticado
 
-$this->group(['middleware' => ['auth'], 'namespace' => 'Admin', 'prefix' => 'admin'], function (){
+/* $this->group(['middleware' => ['auth'], 'namespace' => 'Admin', 'prefix' => 'admin'], function (){
     
     //Routes requested by AJAX
-/*
+
     $this->post('deposit', 'BalanceController@depositStore')->name('deposit.store');
     $this->post('withdraw', 'BalanceController@withdrawStore')->name('withdraw.store');
     $this->post('transfer', 'BalanceController@confirmTransfer')->name('withdraw.store');
@@ -35,5 +39,5 @@ $this->group(['middleware' => ['auth'], 'namespace' => 'Admin', 'prefix' => 'adm
 
     $this->get('balance', 'BalanceController@index')->name('admin.balance');         
     $this->get('/', 'AdminController@index')->name('admin.home'); 
-*/
-});
+
+});*/

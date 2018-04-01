@@ -25,7 +25,13 @@ $(document).ready(function (){
     var mainMenu = $("ul[role='main-menu'");
     var bgOpacityMain = $('.bg-opacity-main');
     var bgOpacityContent = $('.bg-opacity-content');
-    var btnUserOptions = $('#id_btn_user_options');        
+    var btnUserOptions = $('#id_btn_user_options');    
+    var linkVideosGrid = $("div.col-grid-videos").find('a');  
+    var sectionBody = $('.section-body');
+    var contentBody = $('.section-body.ft-left-p-rel');
+    var pdTopContent = $('.padding-top-content');
+    var tabsHeader = $('.card-head.tabs-top');
+    var loaderMainWhite1 = $('.pos-spinner-main-white-1');
 
     $(document).click(function(){
         $(dropGameSelect).fadeOut(200);  
@@ -73,17 +79,17 @@ $(document).ready(function (){
     // ========================================== SEARCH MAIN ============================================
     // ===================================================================================================
 
-        $(searchInput).keyup(function (e){
-            if($(this).val().length > 2){
+    $(searchInput).keyup(function (e){
+        if($(this).val().length > 2){
 
-                $(searchBox).fadeIn(200);                                
-                $(bgOpacityContent).fadeIn(200);
-            }else if ($(this).val().length === 0){
+            $(searchBox).fadeIn(200);                                
+            $(bgOpacityContent).fadeIn(200);
+        }else if ($(this).val().length === 0){
 
-                $(searchBox).fadeOut(200);                
-                $(bgOpacityContent).fadeOut(200);
-            }
-        });
+            $(searchBox).fadeOut(200);                
+            $(bgOpacityContent).fadeOut(200);
+        }
+    });
 
     // ===================================================================================================
     // ========================================== WINDOW HISTORY =========================================
@@ -155,5 +161,55 @@ $(document).ready(function (){
         });
         
         e.stopPropagation();
-    });            
+    });   
+    
+    // ===================================================================================================
+    // ========================================== VIDEOS GRID ============================================
+    // ===================================================================================================
+
+    $(linkVideosGrid).click(function(e){
+        
+        var route = $(this).attr('href');
+        
+        $(tabsHeader).css('display','none');
+        $(pdTopContent).css('padding-top','65px');
+        loadViews(route, 'get', 'html', null, contentBody);
+
+        e.preventDefault();
+    });
+
+
+
+
+    // ===================================================================================================
+    // ========================================== FUNCTIONS ==============================================
+    // ===================================================================================================
+
+/*
+* Function name = loadViews()
+* Params = route, method, dataType, parameter and contentBody
+* Return = view in HTML loaded in container contentBody
+*/
+
+    function loadViews(route, method, dataType, parameters, contentBody){    
+        
+        history.pushState(null, null, route);
+        $(contentBody).css('display','none');
+        $(loaderMainWhite1).fadeIn(200);
+
+        $.ajax({
+            method: method,
+            url: route,
+            dataType: dataType,
+
+            success: function (response) {
+                var content = $(response).find('.content-body');
+                $(contentBody).html('').html($(content).html());   
+                $(contentBody).fadeIn(200);
+                $(loaderMainWhite1).hide();                 
+            }
+        });
+    };
 });
+
+    
