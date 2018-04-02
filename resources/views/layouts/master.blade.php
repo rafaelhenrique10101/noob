@@ -18,6 +18,7 @@
     <link type="text/css" rel="stylesheet" href="/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="/css/material-design-iconic-font.min.css">
     <link type="text/css" rel="stylesheet" href="/css/material.css">    
+    <link type="text/css" rel="stylesheet" href="/css/plyr.css">
     <!--<link type="text/css" rel="stylesheet" href="css/scrollBar.css">-->
     <link href="img/logo.ico" type="image/x-icon" rel="icon">
 	
@@ -29,6 +30,7 @@
 		
     <script src="/js/jquery-3.2.1.min.js"></script>
     <script src="/js/noob.js"></script>      
+    <script src="/js/plyr.js"></script>
     <!--<script src="./js/scrollBar.js"></script>-->    
     <script src="/js/bootstrap.min.js"></script>    
     <script src="/js/material.js"></script>    	   

@@ -4,11 +4,8 @@
     <div class="container-watch-video">                
         <div class="content-watch-video">
             <div class="w-100pc ft-left-p-rel">   
-                <div class="w-100pc ft-left-p-rel bg-black">                       
-                    <video class="video-player" controls="" crossorigin="" playsinline="" poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" id="player">                
-                        <source src="https://gaming.youtube.com/embed/s_G67_YRWVo" type="video/mp4">
-                        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.webm" type="video/webm">
-                    </video>                    
+                <div class="w-100pc ft-left-p-rel bg-black">                        
+                    <div id='id_player' data-type="youtube" data-video-id="TbsvRyYpcOQ"></div>                    
                 </div>
                 <div class="w-100pc ft-left-p-rel pd-20px">
                     <div class="ft-left-p-rel w-100pc pd-bt-10px">
