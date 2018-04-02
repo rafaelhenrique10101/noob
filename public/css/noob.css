@@ -208,7 +208,7 @@ Color accent #52aedf
     float: left !important;
     position: relative !important;
     max-width: 100% !important;
-    max-height: 680px !important;
+    max-height: 500px !important;
     min-height: 300px !important;
     left: 50%;
     transform: translateX(-50%);
@@ -231,6 +231,10 @@ Color accent #52aedf
 .al-center{
     left: 50%;
     transform: translateX(-50%);
+}
+.v-al-center{
+    top: 50%;
+    transform: translateY(-50%);
 }
 .al-center-video{
     left: 50%;
@@ -444,6 +448,42 @@ Color accent #52aedf
 .pd-tp-20px{
     padding-top: 20px !important;
 }
+.pd-lt-5px{
+    padding-left: 5px !important;
+}
+.pd-lt-10px{
+    padding-left: 10px !important;
+}
+.pd-lt-15px{
+    padding-left: 15px !important;
+}
+.pd-lt-20px{
+    padding-left: 20px !important;
+}
+.pd-lt-25px{
+    padding-left: 25px !important;
+}
+.pd-lt-30px{
+    padding-left: 30px !important;
+}
+.pd-rg-5px{
+    padding-right: 5px !important;
+}
+.pd-rg-10px{
+    padding-right: 10px !important;
+}
+.pd-rg-15px{
+    padding-right: 15px !important;
+}
+.pd-rg-20px{
+    padding-right: 20px !important;
+}
+.pd-rg-25px{
+    padding-right: 25px !important;
+}
+.pd-rg-30px{
+    padding-right: 30px !important;
+}
 .pd-5px{
     padding: 5px !important;
 }
@@ -513,7 +553,9 @@ Color accent #52aedf
     background-color: #333333;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4) !important;
 }
-
+.wd-description-video{
+    width: calc(100% - 40px);
+}
 .font-rb{
     font-family: Roboto, Arial, sans-serif !important;
 }
