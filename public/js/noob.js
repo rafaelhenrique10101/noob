@@ -33,7 +33,19 @@ $(document).ready(function (){
     var pdTopContent = $('.padding-top-content');
     var tabsHeader = $('.card-head.tabs-top');
     var loaderMainWhite1 = $('.pos-spinner-main-white-1');
+    var logoHeader = $("div[role='logo_header'");
     
+    // ===================================================================================================
+    // ========================================== GET PAGES AJAX =========================================
+    // ===================================================================================================
+
+    //var route = window.location.href.replace(BASE_URL,'');               
+    //loadViews(route, 'post', 'html', null, contentBody);
+
+
+    // ===================================================================================================
+    // ==================================== GLOBAL ELEMENT ACTIONS =======================================
+    // ===================================================================================================
 
     $(document).click(function(){
         $(dropGameSelect).fadeOut(200);  
@@ -58,7 +70,7 @@ $(document).ready(function (){
         $(bgOpacityContent).fadeOut(200);
 
         e.stopPropagation();
-    });
+    });    
 
     // ===================================================================================================
     // ========================================== PLYR PLAYER ============================================
@@ -67,6 +79,18 @@ $(document).ready(function (){
     // INIT AND SET CONTAINER ELEMENT
 
     
+    // ===================================================================================================
+    // ========================================== LOGO ACTIONS ===========================================
+    // ===================================================================================================
+
+    $(logoHeader).click(function(e){
+
+        loadViews('/', 'get', 'html', null, contentBody);
+
+        e.preventDefault();
+
+    });
+
 
     // ===================================================================================================
     // ========================================== TABS HEADER ============================================
@@ -213,6 +237,8 @@ $(document).ready(function (){
 
     function loadViews(route, method, dataType, parameters, contentBody){    
         
+        route === '' ? route = '/' : route = route;
+
         if(route.match('/watch/') || route.match('/game/')){
             $(tabsHeader).css('display','none');
             $(pdTopContent).css('padding-top','65px');

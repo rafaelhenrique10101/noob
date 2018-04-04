@@ -7,12 +7,16 @@
 */
 $this->group(['namespace' => 'Site'], function (){
 
-    $this->get('/', 'SiteController@index')->name('site.index');
-    $this->post('/', 'SiteController@index')->name('site.index');
+    // Redirect all requests to layout view
 
-    $this->get('/watch/{id}', 'SiteController@watch')->name('site.watch');
-    $this->post('/watch/{id}', 'SiteController@watch')->name('site.watch');
+    $this->get('{all}', function(){
+        return view('layouts.layout');
+    })->where('all', '.*');
+    
+    // View Routes called by AJAX
 
+    $this->post('/teste', 'SiteController@index')->name('site.index');
+    $this->post('/watch/{id}', 'SiteController@watch')->name('site.watch');        
 });
 
 

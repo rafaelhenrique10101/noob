@@ -182,7 +182,7 @@
             <div class="ft-left-p-rel pd-rg-lt-20px mg-tp-bt-10px c-pointer" id="id_btn_expand_main_menu">
                 <img src="/img/svg/icons/ic_menu_white_24px.svg">
             </div>
-            <div class="ft-left-p-rel pd-rg-lt-20px mg-tp-bt-5px">
+            <div class="ft-left-p-rel mg-lf-rg-20px mg-tp-bt-5px c-pointer" role="logo_header">
                 <img src="/img/svg/icons/ic_games_white_24px.svg" style="width: 35px;">
             </div>
         </div>
@@ -302,7 +302,7 @@
             <section class="section-content">    
                 <div class="section-body ft-left-p-rel wh-100pc" style="margin-top: 0;">    
                     <div class="content-body">            
-                        @yield('content')                
+                        
                     </div>
                 </div>
             </section>

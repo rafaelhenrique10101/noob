@@ -26,6 +26,12 @@
 
 
 
+      	   
+  </head>
+    <body class="menubar-hoverable">
+      @yield('body')	
+    </body>  
+
     <!-- BEGIN JAVASCRIPT -->
 		
     <script src="/js/jquery-3.2.1.min.js"></script>
@@ -33,9 +39,5 @@
     <script src="/js/plyr.js"></script>
     <!--<script src="./js/scrollBar.js"></script>-->    
     <script src="/js/bootstrap.min.js"></script>    
-    <script src="/js/material.js"></script>    	   
-  </head>
-    <body class="menubar-hoverable">
-      @yield('body')	
-    </body>  
+    <script src="/js/material.js"></script>  
   </html>

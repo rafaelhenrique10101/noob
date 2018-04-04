@@ -5,7 +5,7 @@
         <div class="content-watch-video">
             <div class="w-100pc ft-left-p-rel">   
                 <div class="w-100pc ft-left-p-rel bg-black">                        
-                    <div id='id_player' data-type="youtube" data-video-id="TbsvRyYpcOQ"></div>                    
+                    <div id='id_player' data-type="youtube" data-video-id="qiLv57Ncdw"></div>                    
                 </div>
                 <div class="w-100pc ft-left-p-rel pd-20px">
                     <div class="ft-left-p-rel w-100pc pd-bt-10px">
