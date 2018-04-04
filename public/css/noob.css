@@ -92,6 +92,7 @@ Color accent #52aedf
     width: 100%;
     background-color: transparent;
     transition: opacity 0.3s;
+    position: relative;
 }
 .container-info-thumb-video{
     width: 100%;
@@ -707,6 +708,15 @@ Color accent #52aedf
     float: left;
     padding: 3px 10px;
     margin-top: 10px;
+}
+.tag-small-chip-rounded-blue{
+    background-color: #52aedf;
+    border-radius: 4px;
+    float: left;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 3px 10px;
 }
 .container-video-title-thumb{
     line-height: 20px;

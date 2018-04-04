@@ -10,6 +10,7 @@ $(document).ready(function (){
     const SLIDE_IN_LEFT = "slideInLeft animated";
     const SLIDE_OUT_LEFT = "slideOutLeft animated";
     const ANIMATION_END = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
+    const BASE_URL = 'http://dev.noob.hs/';
 
     // INSTANCIA DE ELEMENTOS
 
@@ -32,6 +33,7 @@ $(document).ready(function (){
     var pdTopContent = $('.padding-top-content');
     var tabsHeader = $('.card-head.tabs-top');
     var loaderMainWhite1 = $('.pos-spinner-main-white-1');
+    
 
     $(document).click(function(){
         $(dropGameSelect).fadeOut(200);  
@@ -175,32 +177,50 @@ $(document).ready(function (){
     // ========================================== VIDEOS GRID ============================================
     // ===================================================================================================
 
-    $(linkVideosGrid).click(function(e){
+    $(document).off('click','div.col-grid-videos a').on('click','div.col-grid-videos a', function(e){
         
-        var route = $(this).attr('href');
-        
-        $(tabsHeader).css('display','none');
-        $(pdTopContent).css('padding-top','65px');
+        var route = $(this).attr('href');                
         loadViews(route, 'get', 'html', null, contentBody);
 
         e.preventDefault();
+
     });
 
 
+    // ===================================================================================================
+    // ========================================== AÇÕES POPSTATE =========================================
+    // ===================================================================================================
+
+    $(window).on('popstate', function (e) {
+
+        var route = window.location.href.replace(BASE_URL,'');               
+        loadViews(route, 'get', 'html', null, contentBody);
+
+        e.preventDefault();
+
+    });
 
 
     // ===================================================================================================
     // ========================================== FUNCTIONS ==============================================
     // ===================================================================================================
 
-/*
-* Function name = loadViews()
-* Params = route, method, dataType, parameter and contentBody
-* Return = view in HTML loaded in container contentBody
-*/
+    /*
+    * Function name = loadViews()
+    * Params = route, method, dataType, parameter and contentBody
+    * Return = view in HTML loaded in container contentBody
+    */
 
     function loadViews(route, method, dataType, parameters, contentBody){    
         
+        if(route.match('/watch/') || route.match('/game/')){
+            $(tabsHeader).css('display','none');
+            $(pdTopContent).css('padding-top','65px');
+        }else{
+            $(tabsHeader).css('display','block');
+            $(pdTopContent).css('padding-top','112px');
+        }
+
         history.pushState(null, null, route);
         $(contentBody).css('display','none');
         $(loaderMainWhite1).fadeIn(200);

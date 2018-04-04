@@ -1173,7 +1173,6 @@ a.text-success:hover {
   color: #3d8b40;
 }
 #base {
-  overflow: hidden;
   width: 100%;
   min-height: 100%;
 }
