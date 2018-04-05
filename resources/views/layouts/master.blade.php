@@ -23,9 +23,6 @@
     <link href="img/logo.ico" type="image/x-icon" rel="icon">
 	
 		<!-- END STYLESHEETS -->
-
-
-
       	   
   </head>
     <body class="menubar-hoverable">

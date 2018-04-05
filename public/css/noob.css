@@ -515,6 +515,43 @@ Color accent #52aedf
 .mg-tp-30px{
     margin-top: 30px !important;
 }
+.left-5px{
+    left: 5px;
+}
+.left-10px{
+    left: 10px;
+}
+.left-15px{
+    left: 15px;
+}
+.left-20px{
+    left: 20px;
+}
+.left-25px{
+    left: 25px;
+}
+.left-30px{
+    left: 30px;
+}
+
+.right-5px{
+    right: 5px;
+}
+.right-10px{
+    right: 10px;
+}
+.right-15px{
+    right: 15px;
+}
+.right-20px{
+    right: 20px;
+}
+.right-25px{
+    right: 25px;
+}
+.right-30px{
+    right: 30px;
+}
 .margin-user-img{
     margin: 5px 15px;
     padding: 0;

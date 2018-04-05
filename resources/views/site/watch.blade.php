@@ -1,11 +1,13 @@
-@extends('layouts.layout')
 
-@section('content')        
+<script type="text/javascript">
+    $('.card-head.tabs-top').css('display','none');
+    $('.padding-top-content').css('padding-top','65px');
+</script>
     <div class="container-watch-video">                
         <div class="content-watch-video">
             <div class="w-100pc ft-left-p-rel">   
                 <div class="w-100pc ft-left-p-rel bg-black">                        
-                    <div id='id_player' data-type="youtube" data-video-id="qiLv57Ncdw"></div>                    
+                    <div id='id_player' data-type="youtube" data-video-id="8KZcgB5Mw9Y"></div>
                 </div>
                 <div class="w-100pc ft-left-p-rel pd-20px">
                     <div class="ft-left-p-rel w-100pc pd-bt-10px">
@@ -23,4 +25,3 @@
         <div class="container-column-rigth-video">
         </div>          
     </div>    
-@stop

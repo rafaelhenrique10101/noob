@@ -10,7 +10,7 @@ $(document).ready(function (){
     const SLIDE_IN_LEFT = "slideInLeft animated";
     const SLIDE_OUT_LEFT = "slideOutLeft animated";
     const ANIMATION_END = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
-    const BASE_URL = 'http://dev.noob.hs/';
+    const BASE_URL = 'http://dev.noob.hs';
 
     // INSTANCIA DE ELEMENTOS
 
@@ -33,14 +33,14 @@ $(document).ready(function (){
     var pdTopContent = $('.padding-top-content');
     var tabsHeader = $('.card-head.tabs-top');
     var loaderMainWhite1 = $('.pos-spinner-main-white-1');
-    var logoHeader = $("div[role='logo_header'");
+    var logoHeader = $("a[role='logo_header'");
     
     // ===================================================================================================
     // ========================================== GET PAGES AJAX =========================================
     // ===================================================================================================
 
-    //var route = window.location.href.replace(BASE_URL,'');               
-    //loadViews(route, 'post', 'html', null, contentBody);
+    var route = window.location.href.replace(BASE_URL,'');               
+    loadViews(route, 'get', 'html', null, contentBody);
 
 
     // ===================================================================================================
@@ -235,19 +235,9 @@ $(document).ready(function (){
     * Return = view in HTML loaded in container contentBody
     */
 
-    function loadViews(route, method, dataType, parameters, contentBody){    
-        
-        route === '' ? route = '/' : route = route;
+    function loadViews(route, method, dataType, parameters, contentBody){                    
 
-        if(route.match('/watch/') || route.match('/game/')){
-            $(tabsHeader).css('display','none');
-            $(pdTopContent).css('padding-top','65px');
-        }else{
-            $(tabsHeader).css('display','block');
-            $(pdTopContent).css('padding-top','112px');
-        }
-
-        history.pushState(null, null, route);
+        history.pushState(null, null, BASE_URL + route);
         $(contentBody).css('display','none');
         $(loaderMainWhite1).fadeIn(200);
 

@@ -182,9 +182,11 @@
             <div class="ft-left-p-rel pd-rg-lt-20px mg-tp-bt-10px c-pointer" id="id_btn_expand_main_menu">
                 <img src="/img/svg/icons/ic_menu_white_24px.svg">
             </div>
-            <div class="ft-left-p-rel mg-lf-rg-20px mg-tp-bt-5px c-pointer" role="logo_header">
-                <img src="/img/svg/icons/ic_games_white_24px.svg" style="width: 35px;">
-            </div>
+            <a href="/" class="ft-left-p-rel" role="logo_header">
+                <div class="ft-left-p-rel left-20px mg-tp-bt-5px c-pointer">
+                    <img src="/img/svg/icons/ic_games_white_24px.svg" style="width: 35px;">
+                </div>
+            </a>
         </div>
         <div class="container-input-top w-60pc ft-left-p-rel al-center mg-tp-bt-10px p-ab">
             <input type="text" class="form-control pd-rg-lt-15px" id="id_search_main" placeholder="Pesquise jogos, canais e videos">

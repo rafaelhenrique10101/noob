@@ -1,3 +1,8 @@
+
+<script type="text/javascript">
+    $('.card-head.tabs-top').css('display','block');
+    $('.padding-top-content').css('padding-top','112px');
+</script>
 <div class="row" style="height: 270px;background-color: #000000;">
 </div>
 <div class="row row-border-separator">
