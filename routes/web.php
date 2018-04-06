@@ -9,6 +9,11 @@
 //$this->get('{all}', function(){
 //    return view('layouts.layout');
 //})->where('all', '.*');
+/*
+|--------------------------------------------------------------------------
+| Request required by browser
+|--------------------------------------------------------------------------
+*/
 
 $this->get('/', function(){
     return view('layouts.layout');
@@ -17,6 +22,12 @@ $this->get('/', function(){
 $this->get('/watch/{id}', function(){
     return view('layouts.layout');
 });
+
+/*
+|--------------------------------------------------------------------------
+| AJAX Requests, with prefix ajax/
+|--------------------------------------------------------------------------
+*/
 
 $this->group(['namespace' => 'Site', 'prefix' => 'ajax'], function (){
     

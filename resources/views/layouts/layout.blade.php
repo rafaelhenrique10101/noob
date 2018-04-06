@@ -82,7 +82,6 @@
     </div>
 </ul>
 <header id="header">
-
     <div class="container-search-box">
         <div class="content-search-box">
             <div class="ft-left-p-rel w-100pc h-100pc mg-tp-bt-15px">
@@ -182,7 +181,7 @@
             <div class="ft-left-p-rel pd-rg-lt-20px mg-tp-bt-10px c-pointer" id="id_btn_expand_main_menu">
                 <img src="/img/svg/icons/ic_menu_white_24px.svg">
             </div>
-            <a href="/" class="ft-left-p-rel" role="logo_header">
+            <a href="/ajax" class="ft-left-p-rel" role="logo_header">
                 <div class="ft-left-p-rel left-20px mg-tp-bt-5px c-pointer">
                     <img src="/img/svg/icons/ic_games_white_24px.svg" style="width: 35px;">
                 </div>

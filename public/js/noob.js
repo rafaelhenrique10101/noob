@@ -85,7 +85,8 @@ $(document).ready(function (){
 
     $(logoHeader).click(function(e){
 
-        loadViews('/ajax/', 'get', 'html', null, contentBody);
+        var route = $(this).attr('href');
+        loadViews(route, 'get', 'html', null, contentBody);
 
         e.preventDefault();
 
@@ -247,13 +248,13 @@ $(document).ready(function (){
             dataType: dataType,
 
             success: function (response) {
-                //var content = $(response).find('.content-body');
-                $(contentBody).find('.content-body').html('').html(response);   
-                if (route.match('/watch/')){
-                    plyr.setup("#id_player");
-                }
-                $(contentBody).fadeIn(200);
-                $(loaderMainWhite1).hide();                 
+                
+                $(contentBody).find('.content-body').html('').html(response);
+                window.setTimeout(function(){
+                    $(contentBody).fadeIn(200);
+                    $(loaderMainWhite1).hide();
+                },1000);
+                
             }
         });
     };
