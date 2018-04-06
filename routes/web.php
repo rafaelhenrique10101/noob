@@ -5,7 +5,20 @@
 | Index Site Routes
 |--------------------------------------------------------------------------
 */
-$this->group(['namespace' => 'Site'], function (){
+
+//$this->get('{all}', function(){
+//    return view('layouts.layout');
+//})->where('all', '.*');
+
+$this->get('/', function(){
+    return view('layouts.layout');
+});
+
+$this->get('/watch/{id}', function(){
+    return view('layouts.layout');
+});
+
+$this->group(['namespace' => 'Site', 'prefix' => 'ajax'], function (){
     
     // View Routes called by AJAX
 

@@ -39,7 +39,7 @@ $(document).ready(function (){
     // ========================================== GET PAGES AJAX =========================================
     // ===================================================================================================
 
-    var route = window.location.href.replace(BASE_URL,'');               
+    var route = window.location.href.replace(BASE_URL,'/ajax');               
     loadViews(route, 'get', 'html', null, contentBody);
 
 
@@ -85,7 +85,7 @@ $(document).ready(function (){
 
     $(logoHeader).click(function(e){
 
-        loadViews('/', 'get', 'html', null, contentBody);
+        loadViews('/ajax/', 'get', 'html', null, contentBody);
 
         e.preventDefault();
 
@@ -203,7 +203,7 @@ $(document).ready(function (){
 
     $(document).off('click','div.col-grid-videos a').on('click','div.col-grid-videos a', function(e){
         
-        var route = $(this).attr('href');                
+        var route = '/ajax' + $(this).attr('href');
         loadViews(route, 'get', 'html', null, contentBody);
 
         e.preventDefault();
@@ -237,7 +237,7 @@ $(document).ready(function (){
 
     function loadViews(route, method, dataType, parameters, contentBody){                    
 
-        history.pushState(null, null, BASE_URL + route);
+        history.pushState(null, null, BASE_URL + route.replace('/ajax',''));
         $(contentBody).css('display','none');
         $(loaderMainWhite1).fadeIn(200);
 
@@ -247,8 +247,8 @@ $(document).ready(function (){
             dataType: dataType,
 
             success: function (response) {
-                var content = $(response).find('.content-body');
-                $(contentBody).html('').html($(content).html());   
+                //var content = $(response).find('.content-body');
+                $(contentBody).find('.content-body').html('').html(response);   
                 if (route.match('/watch/')){
                     plyr.setup("#id_player");
                 }
