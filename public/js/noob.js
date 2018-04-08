@@ -10,7 +10,8 @@ $(document).ready(function (){
     const SLIDE_IN_LEFT = "slideInLeft animated";
     const SLIDE_OUT_LEFT = "slideOutLeft animated";
     const ANIMATION_END = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
-    const BASE_URL = 'http://dev.noob.hs';
+    const BASE_URL = 'http://dev.noobnever.com';
+    const AJAX_PREFIX = '/ajax/';
 
     // INSTANCIA DE ELEMENTOS
 
@@ -85,7 +86,7 @@ $(document).ready(function (){
 
     $(logoHeader).click(function(e){
 
-        var route = $(this).attr('href');
+        var route = AJAX_PREFIX;
         loadViews(route, 'get', 'html', null, contentBody);
 
         e.preventDefault();
@@ -204,7 +205,7 @@ $(document).ready(function (){
 
     $(document).off('click','div.col-grid-videos a').on('click','div.col-grid-videos a', function(e){
         
-        var route = '/ajax' + $(this).attr('href');
+        var route = AJAX_PREFIX + $(this).attr('href');
         loadViews(route, 'get', 'html', null, contentBody);
 
         e.preventDefault();
@@ -218,7 +219,7 @@ $(document).ready(function (){
 
     $(window).on('popstate', function (e) {
 
-        var route = window.location.href.replace(BASE_URL,'');               
+        var route = window.location.href.replace(BASE_URL,'/ajax');               
         loadViews(route, 'get', 'html', null, contentBody);
 
         e.preventDefault();
@@ -238,7 +239,7 @@ $(document).ready(function (){
 
     function loadViews(route, method, dataType, parameters, contentBody){                    
 
-        history.pushState(null, null, BASE_URL + route.replace('/ajax',''));
+        history.pushState(null, null, BASE_URL + route.replace(AJAX_PREFIX,'/'));
         $(contentBody).css('display','none');
         $(loaderMainWhite1).fadeIn(200);
 

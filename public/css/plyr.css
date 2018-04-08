@@ -351,6 +351,8 @@
     color:#fff
 }
 .plyr__play-large{
+    width: 75px;
+    height: 75px;
     display:none;
     position:absolute;
     z-index:1;
@@ -366,15 +368,15 @@
     box-shadow:0 1px 1px rgba(0,0,0,.15);
     color:#fff;
     -webkit-transition:all .3s ease;
-    transition:all .3s ease
+    transition:all .3s ease;
 }
 .plyr__play-large svg{
     position:relative;
     left:2px;
-    width:20px;
+    width: 48px;
     height:20px;
     display:block;
-    fill:currentColor
+    fill:currentColor;
 }
 .plyr__play-large:focus{
     outline:1px dotted rgba(255,255,255,.5)

@@ -9,7 +9,7 @@
     <h1 class="h-h1">Recomendados</h1>
     <div class="center-content-body al-center">                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/BpI_bUr1xvE/hqdefault_live.jpg" class="img-thumb" />
                     <div class="tag-small-chip-rounded-blue">
@@ -30,7 +30,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/ZeY_PqYit_k/hqdefault_live.jpg" class="img-thumb" />
                     <div class="tag-small-chip-rounded-blue">
@@ -51,7 +51,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/zcVXIj3M9ZQ/hqdefault_live.jpg" class="img-thumb" />
                     <div class="tag-small-chip-rounded-blue">
@@ -72,7 +72,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/wDEwYYW8Pjk/hqdefault_live.jpg" class="img-thumb" />
                     <div class="tag-small-chip-rounded-blue">
@@ -93,7 +93,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/-TgREHxSp88/hqdefault_live.jpg" class="img-thumb" />
                     <div class="tag-small-chip-rounded-blue">
@@ -114,7 +114,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/HgRtO4Q6JPI/hqdefault_live.jpg" class="img-thumb" />
                     <div class="tag-small-chip-rounded-blue">
@@ -135,7 +135,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi_webp/YTJxPiokCvk/hqdefault.webp" class="img-thumb" />
                     <div class="tag-small-chip-rounded-blue">
@@ -156,7 +156,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb" />
                     <div class="tag-small-chip-rounded-blue">
@@ -182,7 +182,7 @@
     <h1 class="h-h1">Recomendados</h1>
     <div class="center-content-body al-center">                
     <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/BpI_bUr1xvE/hqdefault_live.jpg" class="img-thumb" />
                 </div>
@@ -200,7 +200,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/ZeY_PqYit_k/hqdefault_live.jpg" class="img-thumb" />
                 </div>
@@ -218,7 +218,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/zcVXIj3M9ZQ/hqdefault_live.jpg" class="img-thumb" />
                 </div>
@@ -236,7 +236,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/wDEwYYW8Pjk/hqdefault_live.jpg" class="img-thumb" />
                 </div>
@@ -254,7 +254,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/-TgREHxSp88/hqdefault_live.jpg" class="img-thumb" />
                 </div>
@@ -272,7 +272,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi/HgRtO4Q6JPI/hqdefault_live.jpg" class="img-thumb" />
                 </div>
@@ -290,7 +290,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi_webp/YTJxPiokCvk/hqdefault.webp" class="img-thumb" />
                 </div>
@@ -308,7 +308,7 @@
             </a>
         </div>                                
         <div class="col-grid-videos col-thumb ft-left-p-rel">
-            <a href="/watch/123456" class="ft-left-p-rel">
+            <a href="watch/123456" class="ft-left-p-rel">
                 <div class="container_thumbnail">
                     <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb" />
                 </div>
