@@ -3954,15 +3954,16 @@ input.mdl-button[type="submit"] {
 .mdl-button--icon {
   border-radius: 50%;
   font-size: 24px;
-  height: 32px;
+  height: 34px;
   margin-left: 0;
   margin-right: 0;
-  min-width: 32px;
-  width: 32px;
+  min-width: 34px;
+  width: 34px;
   padding: 0;
   overflow: hidden;
   color: inherit;
-  line-height: normal; }
+  line-height: normal;
+  }
   .mdl-button--icon .material-icons {
     position: absolute;
     top: 50%;
