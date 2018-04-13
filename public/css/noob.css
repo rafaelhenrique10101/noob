@@ -12,6 +12,12 @@ Color accent #52aedf
 ::-webkit-scrollbar-track {
     background-color: #333;
 }
+.btn-primary-green:focus{
+    outline: none;
+}
+.btn-primary-grey:focus{
+    outline: none;
+}
 .body{
     font-family: Roboto, Arial, sans-serif !important;
 }
