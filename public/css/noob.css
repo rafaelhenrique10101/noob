@@ -77,8 +77,14 @@ Color accent #52aedf
     padding-left: 15px !important;
     padding-bottom: 20px !important;
 }
+.col-thumb-proximos-videos{
+    /* height: 68px !important; */
+}
 .img-thumb{
     width: 100%;
+}
+.img-thumb-list-videos{
+    width: 100px;
 }
 .bg-black{
     background-color: #000;
@@ -90,6 +96,17 @@ Color accent #52aedf
     padding: 20px 0;
 }
 .container_thumbnail{
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: opacity 0.3s;
+    position: relative;
+}
+.container-thumbnail-proximos-videos{
     background-size: cover;
     background-position: center center;
     background-color: transparent;
@@ -174,6 +191,40 @@ Color accent #52aedf
 .w-100pc{
     width: 100%;
 }
+.w-10px{
+    width: 10px;
+}
+.w-20px{
+    width: 20px;
+}
+.w-30px{
+    width: 30px;
+}
+.w-40px{
+    width: 40px;
+}
+.w-50px{
+    width: 50px;
+}
+
+.w-60px{
+    width: 60px;
+}
+.w-70px{
+    width: 70px;
+}
+.w-80px{
+    width: 80px;
+}
+.w-90px{
+    width: 90px;
+}
+.w-100px{
+    width: 100px;
+}
+.w-tabs-container-header-column-right{
+    width: 49%;
+}
 .w-100pc-item-game-selected{
     width: calc(100% - 100px);
 }
@@ -223,7 +274,15 @@ Color accent #52aedf
     float: right;
     position: relative;
     width: 380px;
-    height: 100%;
+    height: 100%;    
+}
+.container-header-column-right-video{
+    float: left;
+    height: 53px;
+    width: 100%;
+    background-color: #333;
+    -webkit-box-shadow:0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
 }
 .pos-spinner-main-white-1{
     position: fixed;
@@ -816,6 +875,16 @@ Color accent #52aedf
 }
 .item-menu:hover{
     background-color: #464545;
+    cursor: pointer;
+}
+.item-videos-list{
+    margin: 10px 0px;
+    padding: 0 10px;
+    color: #fff;
+    height: 75px;
+    line-height: 24px;
+}
+.item-videos-list:hover{    
     cursor: pointer;
 }
 .container-search-box{

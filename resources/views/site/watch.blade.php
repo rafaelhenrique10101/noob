@@ -55,5 +55,85 @@
         </div>
     </div>   
     <div class="container-column-rigth-video">
+        <div class="ft-left-p-rel wh-100pc">
+            <div class="container-header-column-right-video pd-tp-5px">
+                <ul class="nav nav-tabs tabs-center" data-toggle="tabs">
+                    <li class="active w-tabs-container-header-column-right font-rb"><a href="">AULAS</a></li>
+                    <li class="w-tabs-container-header-column-right font-rb"><a href="">COMENTARIOS</a></li>                    
+                </ul>
+            </div>
+            <div class="ft-left-p-rel w-100pc" role="container-tabs-column-right">
+                <div class="ft-left-p-rel w-100pc" role="tab1" style="display:block">
+                    <div class="w-100pc ft-left-p-rel pd-tp-bt-20px pd-rg-lt-10px row-border-separator">
+                        <div class="ft-left-p-rel">
+                            <span class="w-100pc txt-size-15px txt-weight-500 txt-white font-rb">Reproducao automatica</span>
+                        </div>
+                        <div class="ft-right-p-rel w-40px">
+                            <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+                                <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+                                <span class="mdl-switch__label"></span>
+                            </label>
+                        </div>                        
+                    </div>
+                    <div class="w-100pc ft-left-p-rel pd-tp-bt-20px">
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ft-left-p-rel w-100pc" role="tab2" style="display:none">
+                    <div class="w-100pc ft-left-p-rel pd-tp-bt-20px pd-rg-lt-10px row-border-separator">
+                        <span class="w-100pc txt-size-15px txt-weight-500 txt-white font-rb">Reproducao automatica</span>
+                    </div>
+                </div>
+            </div>            
+        </div>
     </div>          
 </div>    
