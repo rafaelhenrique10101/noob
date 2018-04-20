@@ -62,7 +62,7 @@
                     <li class="w-tabs-container-header-column-right font-rb"><a href="">COMENTARIOS</a></li>                    
                 </ul>
             </div>
-            <div class="ft-left-p-rel w-100pc" role="container-tabs-column-right">
+            <div class="ft-left-p-rel w-100pc ovf-list-videos-proximas-aulas" role="container-tabs-column-right">
                 <div class="ft-left-p-rel w-100pc" role="tab1" style="display:block">
                     <div class="w-100pc ft-left-p-rel pd-tp-bt-20px pd-rg-lt-10px row-border-separator">
                         <div class="ft-left-p-rel">
@@ -78,52 +78,162 @@
                     <div class="w-100pc ft-left-p-rel pd-tp-bt-20px">
                         <div class="item-videos-list">
                             <div class="ft-left-p-rel">
-                                <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb-list-videos" />
+                                <img src="https://i.ytimg.com/vi_webp/bLxw4pniFPs/default.webp" class="img-thumb-list-videos" />
                             </div>
-                            <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                        </div>
-                        <div class="item-videos-list">
-                            <div class="ft-left-p-rel">
-                                <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb-list-videos" />
-                            </div>
-                            <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
+                            <div class="ft-left-p-rel container-desc-video-list">
+                                <div class="ft-left-p-rel w-100pc line-h-desc-list-videos">
+                                    <span class="txt-size-14px txt-weight-500 txt-white font-rb">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">bazattak007</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc lh-15px">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">327 mil visualizacoes • 1 dia atras</span>
+                                </div>
                             </div>
                         </div>
                         <div class="item-videos-list">
                             <div class="ft-left-p-rel">
-                                <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb-list-videos" />
+                                <img src="https://i.ytimg.com/vi_webp/bLxw4pniFPs/default.webp" class="img-thumb-list-videos" />
                             </div>
-                            <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                        </div>
-                        <div class="item-videos-list">
-                            <div class="ft-left-p-rel">
-                                <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb-list-videos" />
-                            </div>
-                            <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
+                            <div class="ft-left-p-rel container-desc-video-list">
+                                <div class="ft-left-p-rel w-100pc line-h-desc-list-videos">
+                                    <span class="txt-size-14px txt-weight-500 txt-white font-rb">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">bazattak007</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc lh-15px">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">327 mil visualizacoes • 1 dia atras</span>
+                                </div>
                             </div>
                         </div>
                         <div class="item-videos-list">
                             <div class="ft-left-p-rel">
-                                <img src="https://i.ytimg.com/vi_webp/yq7LP17v8oY/hqdefault.webp" class="img-thumb-list-videos" />
+                                <img src="https://i.ytimg.com/vi_webp/bLxw4pniFPs/default.webp" class="img-thumb-list-videos" />
                             </div>
-                            <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
+                            <div class="ft-left-p-rel container-desc-video-list">
+                                <div class="ft-left-p-rel w-100pc line-h-desc-list-videos">
+                                    <span class="txt-size-14px txt-weight-500 txt-white font-rb">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">bazattak007</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc lh-15px">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">327 mil visualizacoes • 1 dia atras</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/bLxw4pniFPs/default.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div class="ft-left-p-rel container-desc-video-list">
+                                <div class="ft-left-p-rel w-100pc line-h-desc-list-videos">
+                                    <span class="txt-size-14px txt-weight-500 txt-white font-rb">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">bazattak007</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc lh-15px">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">327 mil visualizacoes • 1 dia atras</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/bLxw4pniFPs/default.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div class="ft-left-p-rel container-desc-video-list">
+                                <div class="ft-left-p-rel w-100pc line-h-desc-list-videos">
+                                    <span class="txt-size-14px txt-weight-500 txt-white font-rb">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">bazattak007</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc lh-15px">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">327 mil visualizacoes • 1 dia atras</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/bLxw4pniFPs/default.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div class="ft-left-p-rel container-desc-video-list">
+                                <div class="ft-left-p-rel w-100pc line-h-desc-list-videos">
+                                    <span class="txt-size-14px txt-weight-500 txt-white font-rb">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">bazattak007</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc lh-15px">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">327 mil visualizacoes • 1 dia atras</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/bLxw4pniFPs/default.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div class="ft-left-p-rel container-desc-video-list">
+                                <div class="ft-left-p-rel w-100pc line-h-desc-list-videos">
+                                    <span class="txt-size-14px txt-weight-500 txt-white font-rb">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">bazattak007</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc lh-15px">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">327 mil visualizacoes • 1 dia atras</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/bLxw4pniFPs/default.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div class="ft-left-p-rel container-desc-video-list">
+                                <div class="ft-left-p-rel w-100pc line-h-desc-list-videos">
+                                    <span class="txt-size-14px txt-weight-500 txt-white font-rb">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">bazattak007</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc lh-15px">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">327 mil visualizacoes • 1 dia atras</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/bLxw4pniFPs/default.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div class="ft-left-p-rel container-desc-video-list">
+                                <div class="ft-left-p-rel w-100pc line-h-desc-list-videos">
+                                    <span class="txt-size-14px txt-weight-500 txt-white font-rb">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">bazattak007</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc lh-15px">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">327 mil visualizacoes • 1 dia atras</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-videos-list">
+                            <div class="ft-left-p-rel">
+                                <img src="https://i.ytimg.com/vi_webp/bLxw4pniFPs/default.webp" class="img-thumb-list-videos" />
+                            </div>
+                            <div class="ft-left-p-rel container-desc-video-list">
+                                <div class="ft-left-p-rel w-100pc line-h-desc-list-videos">
+                                    <span class="txt-size-14px txt-weight-500 txt-white font-rb">TOP 1 DEL MUNDO SEMANAL Y TOP 1 DE ESPAÑA | CALL OF DUTY: WW2</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">bazattak007</span>
+                                </div>
+                                <div class="ft-left-p-rel w-100pc lh-15px">
+                                    <span class="txt-size-13px txt-weight-400 txt-grey-1 font-rb">327 mil visualizacoes • 1 dia atras</span>
+                                </div>
                             </div>
                         </div>
                     </div>

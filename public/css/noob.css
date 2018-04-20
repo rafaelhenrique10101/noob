@@ -222,6 +222,18 @@ Color accent #52aedf
 .w-100px{
     width: 100px;
 }
+.lh-5px{
+    line-height: 5px;
+}
+.lh-10px{
+    line-height: 10px;
+}
+.lh-15px{
+    line-height: 15px;
+}
+.lh-20px{
+    line-height: 20px;
+}
 .w-tabs-container-header-column-right{
     width: 49%;
 }
@@ -764,6 +776,10 @@ Color accent #52aedf
     height: calc(100% - 65px);
     overflow-y: scroll;
 }
+.ovf-list-videos-proximas-aulas{
+    height: calc(100% - 53px);
+    overflow-y: scroll;
+}
 .position-menu-main{
     position: fixed;
     left: 0;
@@ -878,7 +894,7 @@ Color accent #52aedf
     cursor: pointer;
 }
 .item-videos-list{
-    margin: 10px 0px;
+    margin-bottom: 15px;
     padding: 0 10px;
     color: #fff;
     height: 75px;
@@ -886,6 +902,15 @@ Color accent #52aedf
 }
 .item-videos-list:hover{    
     cursor: pointer;
+}
+.container-desc-video-list{
+    height: 100%;
+    width: calc(100% - 100px);
+    padding-left: 10px;
+}
+.line-h-desc-list-videos{
+    line-height: 16px;
+    height: 32px;
 }
 .container-search-box{
     float: left;
