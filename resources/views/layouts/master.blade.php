@@ -21,14 +21,8 @@
     
     <link type="text/css" rel="stylesheet" href="/css/plyr.css">
     <!--<link type="text/css" rel="stylesheet" href="css/scrollBar.css">-->
-    <link href="img/logo.ico" type="image/x-icon" rel="icon">
-	
-		<!-- END STYLESHEETS -->
-      	   
-  </head>
-    <body class="menubar-hoverable">
-      @yield('body')	
-    </body>  
+
+    
 
     <!-- BEGIN JAVASCRIPT -->
 		
@@ -36,6 +30,13 @@
     <script src="/js/noob.js"></script>      
     <script src="/js/plyr.js"></script>
     <!--<script src="./js/scrollBar.js"></script>-->    
-    <script src="/js/bootstrap.min.js"></script>    
     <script src="/js/material.js"></script>  
+    <script src="/js/bootstrap.min.js"></script>        
+    <link href="img/logo.ico" type="image/x-icon" rel="icon">	
+		<!-- END STYLESHEETS -->
+      	   
+  </head>
+    <body class="menubar-hoverable">
+      @yield('body')	
+    </body>  
   </html>
