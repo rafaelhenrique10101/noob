@@ -52,7 +52,7 @@
                     </div>
                     <div class="ft-left-p-rel w-100pc pd-tp-bt-10px">
                         <span class="w-100pc ft-left-p-rel txt-size-13px txt-weight-400 txt-grey-1 font-rb pd-bt-20px">
-                        <span class="txt-size-13px txt-weight-500 txt-blue1 mg-rg-10px font-rb">Publisher</span>Publicado em 3 de jan de 2018</span>
+                        Mais de <span class="txt-size-13px txt-weight-500 txt-blue1 mg-rg-10px font-rb">Publisher</span></span>
                         <div class="col-grid-small-videos col-thumb ft-left-p-rel">
                             <a href="watch/123456" class="ft-left-p-rel">
                                 <div class="container_thumbnail">
@@ -169,9 +169,9 @@
     <div class="container-column-rigth-video">
         <div class="ft-left-p-rel wh-100pc">
             <div class="container-header-column-right-video pd-tp-5px">
-                <ul class="nav nav-tabs tabs-center" data-toggle="tabs">
-                    <li class="active w-tabs-container-header-column-right font-rb"><a href="">AULAS</a></li>
-                    <li class="w-tabs-container-header-column-right font-rb"><a href="">COMENTARIOS</a></li>                    
+                <ul class="nav nav-tabs tabs-center" data-toggle="tabs-class-comments">
+                    <li class="active w-tabs-container-header-column-right font-rb" name="tab1"><a href="">AULAS</a></li>
+                    <li class="w-tabs-container-header-column-right font-rb" name="tab2"><a href="">COMENTARIOS</a></li>                    
                 </ul>
             </div>
             <div class="ft-left-p-rel w-100pc ovf-list-videos-proximas-aulas" role="container-tabs-column-right">
@@ -181,6 +181,10 @@
                             <span class="w-100pc txt-size-15px txt-weight-500 txt-white font-rb">Reproducao automatica</span>
                         </div>
                         <div class="ft-right-p-rel w-40px">
+                            <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+                                <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+                                <span class="mdl-switch__label"></span>
+                            </label>
                         </div>                        
                     </div>
                     <div class="w-100pc ft-left-p-rel pd-tp-bt-20px">
@@ -347,8 +351,90 @@
                     </div>
                 </div>
                 <div class="ft-left-p-rel w-100pc" role="tab2" style="display:none">
-                    <div class="w-100pc ft-left-p-rel pd-tp-bt-20px pd-rg-lt-10px row-border-separator">
-                        <span class="w-100pc txt-size-15px txt-weight-500 txt-white font-rb">Reproducao automatica</span>
+                    <div class="w-100pc ft-left-p-rel pd-tp-bt-10px pd-rg-lt-10px row-border-separator">
+                        <div class="ft-left-p-rel">
+                            <div class="ft-left-p-rel">
+                                <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 30px;">
+                            </div>                        
+                            <div class="ft-left-p-rel pd-rg-lt-10px" id="id_container_txt_comentario_aula">
+                                <input class="input-comment font-rb" type="text" id="id_txt_comentario_aula" placeholder="Escreva um comentário...">                           
+                            </div>
+                        </div>  
+                        <div class="w-100pc ft-left-p-rel" id="id_btn_actions" style="display: none">
+                            <div class="w-100pc ft-left-p-rel pd-tp-10px">
+                                <button type="button" class="btn-primary-transparent mg-lt-10px mg-tp-bt-5px ft-right-p-rel font-rb" role="send-comment">enviar                                 
+                                </button> 
+                                <button type="button" class="btn-primary-transparent mg-lt-10px mg-tp-bt-5px ft-right-p-rel font-rb" role="cancel-comment">cancelar                                 
+                                </button>
+                            </div>
+                        </div>                                              
+                    </div>
+                    <div class="w-100pc ft-left-p-rel pd-tp-bt-10px">
+                        <div class="w-100pc ft-left-p-rel pd-tp-bt-10px row-border-separator">
+                            <div class="w-100pc ft-left-p-rel">
+                                <div class="ft-left-p-rel pd-rg-lt-10px">
+                                    <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 24px;">
+                                </div>
+                                <div class="ft-left-p-rel" style="width: calc(100% - 44px);line-height: 23px;">
+                                    <span class="w-100pc txt-size-13px txt-weight-500 txt-white font-rb">Rafael Henrique</span>
+                                </div>                                
+                            </div>
+                            <div class="w-100pc ft-left-p-rel pd-lt-40px pd-rg-25px pd-tp-10px">
+                                <span class="w-100pc txt-size-13px txt-weight-400 txt-white font-rb">Irei começar a streamar, demora mas chega rápido, estou de mudança e vou conseguir finalmente uma internet boa clan!! TMJ!! Conto com o apoio de vocês quando eu começar!! Vai ser importante!!</span>
+                            </div>
+                        </div>
+                        <div class="w-100pc ft-left-p-rel pd-tp-bt-10px row-border-separator">
+                            <div class="w-100pc ft-left-p-rel">
+                                <div class="ft-left-p-rel pd-rg-lt-10px">
+                                    <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 24px;">
+                                </div>
+                                <div class="ft-left-p-rel" style="width: calc(100% - 44px);line-height: 23px;">
+                                    <span class="w-100pc txt-size-13px txt-weight-500 txt-white font-rb">Rafael Henrique</span>
+                                </div>                                
+                            </div>
+                            <div class="w-100pc ft-left-p-rel pd-lt-40px pd-rg-25px pd-tp-10px">
+                                <span class="w-100pc txt-size-13px txt-weight-400 txt-white font-rb">Irei começar a streamar, demora mas chega rápido, estou de mudança e vou conseguir finalmente uma internet boa clan!! TMJ!! Conto com o apoio de vocês quando eu começar!! Vai ser importante!!</span>
+                            </div>
+                        </div>
+                        <div class="w-100pc ft-left-p-rel pd-tp-bt-10px row-border-separator">
+                            <div class="w-100pc ft-left-p-rel">
+                                <div class="ft-left-p-rel pd-rg-lt-10px">
+                                    <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 24px;">
+                                </div>
+                                <div class="ft-left-p-rel" style="width: calc(100% - 44px);line-height: 23px;">
+                                    <span class="w-100pc txt-size-13px txt-weight-500 txt-white font-rb">Rafael Henrique</span>
+                                </div>                                
+                            </div>
+                            <div class="w-100pc ft-left-p-rel pd-lt-40px pd-rg-25px pd-tp-10px">
+                                <span class="w-100pc txt-size-13px txt-weight-400 txt-white font-rb">Irei começar a streamar, demora mas chega rápido, estou de mudança e vou conseguir finalmente uma internet boa clan!! TMJ!! Conto com o apoio de vocês quando eu começar!! Vai ser importante!!</span>
+                            </div>
+                        </div>
+                        <div class="w-100pc ft-left-p-rel pd-tp-bt-10px row-border-separator">
+                            <div class="w-100pc ft-left-p-rel">
+                                <div class="ft-left-p-rel pd-rg-lt-10px">
+                                    <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 24px;">
+                                </div>
+                                <div class="ft-left-p-rel" style="width: calc(100% - 44px);line-height: 23px;">
+                                    <span class="w-100pc txt-size-13px txt-weight-500 txt-white font-rb">Rafael Henrique</span>
+                                </div>                                
+                            </div>
+                            <div class="w-100pc ft-left-p-rel pd-lt-40px pd-rg-25px pd-tp-10px">
+                                <span class="w-100pc txt-size-13px txt-weight-400 txt-white font-rb">Irei começar a streamar, demora mas chega rápido, estou de mudança e vou conseguir finalmente uma internet boa clan!! TMJ!! Conto com o apoio de vocês quando eu começar!! Vai ser importante!!</span>
+                            </div>
+                        </div>
+                        <div class="w-100pc ft-left-p-rel pd-tp-bt-10px row-border-separator">
+                            <div class="w-100pc ft-left-p-rel">
+                                <div class="ft-left-p-rel pd-rg-lt-10px">
+                                    <img src="https://yt3.ggpht.com/-Aam0SyVoD80/AAAAAAAAAAI/AAAAAAAAAAA/ZN6QyyFrRf4/s100-c-c0xffffff-k-no-rj-mo/photo.jpg" class="rounded" style="width: 24px;">
+                                </div>
+                                <div class="ft-left-p-rel" style="width: calc(100% - 44px);line-height: 23px;">
+                                    <span class="w-100pc txt-size-13px txt-weight-500 txt-white font-rb">Rafael Henrique</span>
+                                </div>                                
+                            </div>
+                            <div class="w-100pc ft-left-p-rel pd-lt-40px pd-rg-25px pd-tp-10px">
+                                <span class="w-100pc txt-size-13px txt-weight-400 txt-white font-rb">Irei começar a streamar, demora mas chega rápido, estou de mudança e vou conseguir finalmente uma internet boa clan!! TMJ!! Conto com o apoio de vocês quando eu começar!! Vai ser importante!!</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>            

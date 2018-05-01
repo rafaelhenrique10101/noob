@@ -34,7 +34,7 @@ $(document).ready(function (){
     var pdTopContent = $('.padding-top-content');
     var tabsHeader = $('.card-head.tabs-top');
     var loaderMainWhite1 = $('.pos-spinner-main-white-1');
-    var logoHeader = $("a[role='logo_header'");
+    var logoHeader = $("a[role='logo_header'");    
     
     // ===================================================================================================
     // ========================================== GET PAGES AJAX =========================================
@@ -108,8 +108,7 @@ $(document).ready(function (){
         history.pushState(null, null, route);
 
         e.preventDefault();
-    });
-
+    });    
 
     // ===================================================================================================
     // ========================================== SEARCH MAIN ============================================
@@ -226,6 +225,50 @@ $(document).ready(function (){
 
     });
 
+
+
+    // ===================================================================================================
+    // ==================================== TABS CLASS COMMENTS VIDEO ====================================
+    // ===================================================================================================
+
+    $(document).off("click","ul[data-toggle='tabs-class-comments'] li").on("click","ul[data-toggle='tabs-class-comments'] li",function(e){
+        
+        var activeTab = $(".tabs-center[data-toggle='tabs-class-comments']").find('li.active');
+        activeTab.removeClass('active'); 
+        $(this).addClass('active');
+
+        if($(activeTab).attr('name') == "tab1")
+        {
+            $("div[role='tab1'").hide();
+            $("div[role='tab2'").fadeIn(200);
+        }
+        else if($(activeTab).attr('name') == "tab2")
+        {
+            $("div[role='tab2'").hide();
+            $("div[role='tab1'").fadeIn(200);
+        }
+
+        e.preventDefault();
+    });               
+    
+    $(document).off('keyup','#id_txt_comentario_aula').on('keyup','#id_txt_comentario_aula',function(e){
+
+        if($(this).val().length > 0){
+            $('#id_btn_actions').show();
+        }else{
+            $('#id_btn_actions').hide();
+        }        
+    });
+
+    $(document).off("click","button[role='send-comment']").on("click","button[role='send-comment']",function(e){
+        $('#id_btn_actions').hide();
+        $('#id_txt_comentario_aula').val('');
+    });
+
+    $(document).off("click","button[role='cancel-comment']").on("click","button[role='cancel-comment']",function(e){
+        $('#id_btn_actions').hide();
+        $('#id_txt_comentario_aula').val('');
+    });
 
     // ===================================================================================================
     // ========================================== FUNCTIONS ==============================================
